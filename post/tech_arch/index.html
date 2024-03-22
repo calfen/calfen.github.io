@@ -102,7 +102,7 @@ jane是其中一个相对洁净的theme
 
 "><meta itemprop="datePublished" content="2024-03-06T16:01:23+08:00" />
 <meta itemprop="dateModified" content="2024-03-07T16:01:23+08:00" />
-<meta itemprop="wordCount" content="702">
+<meta itemprop="wordCount" content="669">
 <meta itemprop="keywords" content="hugo,建站," /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="网站结构"/>
 <meta name="twitter:description" content="本站使用hugo&#43;jane&#43;自定义域名实现建站。
 
@@ -430,17 +430,16 @@ jane是其中一个相对洁净的theme
 <p>网站托管在github</p>
 </li>
 </ul>
-<h1 id="安装">安装</h1>
 <ul>
 <li>官网见：https://gohugo.io   mac版</li>
 </ul>
-<h3 id="安装git">安装git</h3>
+<h1 id="安装git">安装git</h1>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git --version
 </span></span><span style="display:flex;"><span>brew install git
-</span></span></code></pre></div><h3 id="安装hexo">安装hexo</h3>
+</span></span></code></pre></div><h1 id="安装hexo">安装hexo</h1>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install hugo
 </span></span><span style="display:flex;"><span>hugo version
-</span></span></code></pre></div><h3 id="建站">建站</h3>
+</span></span></code></pre></div><h1 id="建站">建站</h1>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo init site_name
 </span></span><span style="display:flex;"><span>cd site_name
 </span></span><span style="display:flex;"><span>git clone https://github.com/xianmin/hugo-theme-jane.git --depth<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span> themes/jane   <span style="color:#75715e"># 安装theme</span>
@@ -451,15 +450,14 @@ jane是其中一个相对洁净的theme
 <blockquote>
 <p>site_name目录为网站根目录，此后所有命令均在根目录下执行。</p>
 </blockquote>
-<h1 id="发布">发布</h1>
-<h3 id="配置configtoml">配置config.toml</h3>
+<h1 id="配置">配置</h1>
 <p>按照注释配置即可，无难度。稍微注意：</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ini" data-lang="ini"><span style="display:flex;"><span>    <span style="color:#a6e22e">defaultContentLanguage</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;zh-cn&#34; 
 </span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    #需要增肌
 </span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    [languages.zh-cn]
 </span></span></span><span style="display:flex;"><span><span style="color:#e6db74">      languageCode = &#34;zh-cn&#34;
 </span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    #并且将theme/i18n的内容复制到 i18n/</span>
-</span></span></code></pre></div><h3 id="markdown约定">markdown约定</h3>
+</span></span></code></pre></div><h1 id="约定">约定</h1>
 <p>在md文件头上，两个&mdash;之间的部分，称为元数据。
 以下为示例。在全局变量定义过后，依然可以在配置文件中重新定义并覆盖全局变量</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ini" data-lang="ini"><span style="display:flex;"><span>    <span style="color:#a6e22e">title: &#34;网站结构&#34;</span>
@@ -481,7 +479,7 @@ jane是其中一个相对洁净的theme
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e"># contentCopyright: &#39;&lt;a href=&#34;https://github.com/gohugoio/hugoBasicExample&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;See origin&lt;/a&gt;&#39;</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e"># reward: false</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e"># mathjax: true</span>
-</span></span></code></pre></div><h3 id="写文章">写文章</h3>
+</span></span></code></pre></div><h1 id="写文章">写文章</h1>
 <ul>
 <li>方法1</li>
 </ul>
@@ -493,13 +491,12 @@ jane是其中一个相对洁净的theme
 </li>
 </ul>
 <h1 id="关联">关联</h1>
-<h3 id="关联github">关联github</h3>
 <p>此处省去申请github个人网站流程，假设您打开calfen.github.io已经能看到页面。</p>
 <pre tabindex="0"><code>cd public/
 git init
 git remote add origin git@github.com:calfen/calfen.github.io.git
 git push --force origin main ## 注意，此操作将删除github原个人网站。
-</code></pre><h3 id="使用自定义域名">使用自定义域名</h3>
+</code></pre><h1 id="自定义域名">自定义域名</h1>
 <p>修改域名：在github.com → setting → pages →custom domain</p>
 <p>网站根目录CNAME.txt为github自动生成</p>
 <blockquote>
@@ -574,41 +571,7 @@ git push --force origin main ## 注意，此操作将删除github原个人网站
     </div>
 
     
-    <nav class="toc" id="toc">
-    <div class="toc-title">文章目录</div>
-    <div class="toc-content custom-scrollbar">
-      <nav id="TableOfContents">
-  <ul>
-    <li>
-      <ul>
-        <li><a href="#安装git">安装git</a></li>
-        <li><a href="#安装hexo">安装hexo</a></li>
-        <li><a href="#建站">建站</a></li>
-      </ul>
-    </li>
-  </ul>
-
-  <ul>
-    <li>
-      <ul>
-        <li><a href="#配置configtoml">配置config.toml</a></li>
-        <li><a href="#markdown约定">markdown约定</a></li>
-        <li><a href="#写文章">写文章</a></li>
-      </ul>
-    </li>
-  </ul>
-
-  <ul>
-    <li>
-      <ul>
-        <li><a href="#关联github">关联github</a></li>
-        <li><a href="#使用自定义域名">使用自定义域名</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-    </div>
-  </nav>
+    
 
 
   </div>

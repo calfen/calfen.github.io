@@ -32,17 +32,16 @@
 &lt;p&gt;网站托管在github&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;安装&#34;&gt;安装&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;官网见：https://gohugo.io   mac版&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;安装git&#34;&gt;安装git&lt;/h3&gt;
+&lt;h1 id=&#34;安装git&#34;&gt;安装git&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git --version
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew install git
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;安装hexo&#34;&gt;安装hexo&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;安装hexo&#34;&gt;安装hexo&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew install hugo
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo version
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;建站&#34;&gt;建站&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;建站&#34;&gt;建站&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo init site_name
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd site_name
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/xianmin/hugo-theme-jane.git --depth&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; themes/jane   &lt;span style=&#34;color:#75715e&#34;&gt;# 安装theme&lt;/span&gt;
@@ -53,15 +52,14 @@
 &lt;blockquote&gt;
 &lt;p&gt;site_name目录为网站根目录，此后所有命令均在根目录下执行。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h1 id=&#34;发布&#34;&gt;发布&lt;/h1&gt;
-&lt;h3 id=&#34;配置configtoml&#34;&gt;配置config.toml&lt;/h3&gt;
+&lt;h1 id=&#34;配置&#34;&gt;配置&lt;/h1&gt;
 &lt;p&gt;按照注释配置即可，无难度。稍微注意：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ini&#34; data-lang=&#34;ini&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;defaultContentLanguage&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;zh-cn&amp;#34; 
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    #需要增肌
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    [languages.zh-cn]
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;      languageCode = &amp;#34;zh-cn&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    #并且将theme/i18n的内容复制到 i18n/&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;markdown约定&#34;&gt;markdown约定&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;约定&#34;&gt;约定&lt;/h1&gt;
 &lt;p&gt;在md文件头上，两个&amp;mdash;之间的部分，称为元数据。
 以下为示例。在全局变量定义过后，依然可以在配置文件中重新定义并覆盖全局变量&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ini&#34; data-lang=&#34;ini&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;title: &amp;#34;网站结构&amp;#34;&lt;/span&gt;
@@ -83,7 +81,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;# contentCopyright: &amp;#39;&amp;lt;a href=&amp;#34;https://github.com/gohugoio/hugoBasicExample&amp;#34; rel=&amp;#34;noopener&amp;#34; target=&amp;#34;_blank&amp;#34;&amp;gt;See origin&amp;lt;/a&amp;gt;&amp;#39;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;# reward: false&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;# mathjax: true&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;写文章&#34;&gt;写文章&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;写文章&#34;&gt;写文章&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;方法1&lt;/li&gt;
 &lt;/ul&gt;
@@ -95,13 +93,12 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;关联&#34;&gt;关联&lt;/h1&gt;
-&lt;h3 id=&#34;关联github&#34;&gt;关联github&lt;/h3&gt;
 &lt;p&gt;此处省去申请github个人网站流程，假设您打开calfen.github.io已经能看到页面。&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cd public/
 git init
 git remote add origin git@github.com:calfen/calfen.github.io.git
 git push --force origin main ## 注意，此操作将删除github原个人网站。
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;使用自定义域名&#34;&gt;使用自定义域名&lt;/h3&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;自定义域名&#34;&gt;自定义域名&lt;/h1&gt;
 &lt;p&gt;修改域名：在github.com → setting → pages →custom domain&lt;/p&gt;
 &lt;p&gt;网站根目录CNAME.txt为github自动生成&lt;/p&gt;
 &lt;blockquote&gt;
