@@ -102,7 +102,7 @@ jane是其中一个相对洁净的theme
 
 "><meta itemprop="datePublished" content="2024-03-06T16:01:23+08:00" />
 <meta itemprop="dateModified" content="2024-03-07T16:01:23+08:00" />
-<meta itemprop="wordCount" content="552">
+<meta itemprop="wordCount" content="702">
 <meta itemprop="keywords" content="hugo,建站," /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="网站结构"/>
 <meta name="twitter:description" content="本站使用hugo&#43;jane&#43;自定义域名实现建站。
 
@@ -492,13 +492,19 @@ jane是其中一个相对洁净的theme
 <p>直接去content/post目录里新建文件，执行<code>hugo</code> 生成静态页面</p>
 </li>
 </ul>
-<h1 id="关联github">关联github</h1>
+<h1 id="关联">关联</h1>
+<h3 id="关联github">关联github</h3>
+<p>此处省去申请github个人网站流程，假设您打开calfen.github.io已经能看到页面。</p>
 <pre tabindex="0"><code>cd public/
 git init
-git remote add origin git@
-</code></pre><p>修改域名：在github.com → setting → pages →custom domain</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+git remote add origin git@github.com:calfen/calfen.github.io.git
+git push --force origin main ## 注意，此操作将删除github原个人网站。
+</code></pre><h3 id="使用自定义域名">使用自定义域名</h3>
+<p>修改域名：在github.com → setting → pages →custom domain</p>
+<p>网站根目录CNAME.txt为github自动生成</p>
+<blockquote>
+<p>💡 注意，一定要将CNAME放到content下面，这样每次生成静态页面时不会丢失。</p>
+</blockquote>
         </div>
 
         
@@ -588,6 +594,15 @@ git remote add origin git@
         <li><a href="#配置configtoml">配置config.toml</a></li>
         <li><a href="#markdown约定">markdown约定</a></li>
         <li><a href="#写文章">写文章</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#关联github">关联github</a></li>
+        <li><a href="#使用自定义域名">使用自定义域名</a></li>
       </ul>
     </li>
   </ul>

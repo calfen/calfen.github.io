@@ -94,13 +94,19 @@
 &lt;p&gt;直接去content/post目录里新建文件，执行&lt;code&gt;hugo&lt;/code&gt; 生成静态页面&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;关联github&#34;&gt;关联github&lt;/h1&gt;
+&lt;h1 id=&#34;关联&#34;&gt;关联&lt;/h1&gt;
+&lt;h3 id=&#34;关联github&#34;&gt;关联github&lt;/h3&gt;
+&lt;p&gt;此处省去申请github个人网站流程，假设您打开calfen.github.io已经能看到页面。&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cd public/
 git init
-git remote add origin git@
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;修改域名：在github.com → setting → pages →custom domain&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;</description>
+git remote add origin git@github.com:calfen/calfen.github.io.git
+git push --force origin main ## 注意，此操作将删除github原个人网站。
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;使用自定义域名&#34;&gt;使用自定义域名&lt;/h3&gt;
+&lt;p&gt;修改域名：在github.com → setting → pages →custom domain&lt;/p&gt;
+&lt;p&gt;网站根目录CNAME.txt为github自动生成&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 注意，一定要将CNAME放到content下面，这样每次生成静态页面时不会丢失。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
       
     </item>
     
