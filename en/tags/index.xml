@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 林中求马</title>
+    <link>http://blog.luluren.com/en/tags/</link>
+    <description>Recent content in Tags on 林中求马</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>calfen@gmail.com (Calfen)</managingEditor>
+    <webMaster>calfen@gmail.com (Calfen)</webMaster>
+    <atom:link href="http://blog.luluren.com/en/tags/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
