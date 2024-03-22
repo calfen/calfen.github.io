@@ -102,7 +102,7 @@ jane是其中一个相对洁净的theme
 
 "><meta itemprop="datePublished" content="2024-03-06T16:01:23+08:00" />
 <meta itemprop="dateModified" content="2024-03-07T16:01:23+08:00" />
-<meta itemprop="wordCount" content="674">
+<meta itemprop="wordCount" content="749">
 <meta itemprop="keywords" content="hugo,建站," /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="网站结构"/>
 <meta name="twitter:description" content="本站使用hugo&#43;jane&#43;自定义域名实现建站。
 
@@ -180,26 +180,23 @@ jane是其中一个相对洁净的theme
             <a class="menu-item-link" href="http://blog.luluren.com/about/">关于</a>
           
         
-      </li><li class="mobile-menu-item">
-        
-          
-          <div class="mobile-menu-parent">
-            <span class="mobile-submenu-open"></span>
-            <a href="http://blog.luluren.com/">
-              docs
-            </a>
-          </div>
-          <ul class="mobile-submenu-list">
-            
-              <li>
-                <a href="http://blog.luluren.com/post/jane-theme-preview/">Jane Theme Preview</a>
-              </li>
-            
-          </ul>
-        
       </li>
     
 
+    
+      <li class="mobile-menu-item">
+        <a id="openSearchMobile" class="mobile-menu-item-link menu-item-search" href="#">
+          <i class="iconfont">
+            <svg version="1.1" viewBox="0 0 1024 1024"
+  xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M973.81454219 973.81454219a91.78207815 91.78207815 0 0 1-129.80999631 0l-161.97482118-161.97482118a425.48527711 425.48527711 0 0 1-230.35931791 68.16531768 428.3346319 428.3346319 0 1 1 428.3346319-428.3346319 425.48527711 425.48527711 0 0 1-68.16531768 230.35931791l162.02961656 161.97482118a91.83687354 91.83687354 0 0 1-0.05479538 129.80999631zM451.67040679 145.69361559a305.97679241 305.97679241 0 1 0 0 611.95358361 305.97679241 305.97679241 0 0 0 0-611.95358361z">
+  </path>
+</svg>
+
+          </i>
+        </a>
+      </li>
     
   </ul>
 </nav>
@@ -264,6 +261,34 @@ jane是其中一个相对洁净的theme
 </div>
 
     
+
+    
+      
+<div class="modal-dialog">
+    
+    <div class="modal-content">
+      <div id="closeSearch" title="Close" class="close">X</div>
+      <div class="modal-header">
+        <div class="modal-title">Search</div>
+      </div>
+      <div class="modal-body">
+          <script>
+            (function() {
+              var cx = '002186711602136249422:q1gkomof_em';
+              var gcse = document.createElement('script');
+              gcse.type = 'text/javascript';
+              gcse.async = true;
+              gcse.src = (document.location.protocol == 'https:' ? 'https:' :
+                  'http:') +
+                '//cse.google.com/cse.js?cx=' + cx;
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(gcse, s);
+            })();
+          </script>
+          <gcse:search></gcse:search>
+      </div>
+    </div>
+</div>
 
     
 
@@ -335,26 +360,24 @@ jane是其中一个相对洁净的theme
 
       </li>
     
-        <li class="menu-item">
-        
-          
-          <a class="menu-item-link menu-parent" href="http://blog.luluren.com/">docs</a>
-          <ul class="submenu">
-            
-              <li class="submenu-item">
-                <a href="http://blog.luluren.com/post/jane-theme-preview/">Jane Theme Preview</a>
-              </li>
-            
-          </ul>
 
-        
+    
+    
 
+    
+      <li class="menu-item">
+        <a id="openSearch" class="menu-item-link menu-item-search" href="#">
+          <i class="iconfont">
+            <svg version="1.1" viewBox="0 0 1024 1024"
+  xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M973.81454219 973.81454219a91.78207815 91.78207815 0 0 1-129.80999631 0l-161.97482118-161.97482118a425.48527711 425.48527711 0 0 1-230.35931791 68.16531768 428.3346319 428.3346319 0 1 1 428.3346319-428.3346319 425.48527711 425.48527711 0 0 1-68.16531768 230.35931791l162.02961656 161.97482118a91.83687354 91.83687354 0 0 1-0.05479538 129.80999631zM451.67040679 145.69361559a305.97679241 305.97679241 0 1 0 0 611.95358361 305.97679241 305.97679241 0 0 0 0-611.95358361z">
+  </path>
+</svg>
+
+          </i>
+        </a>
       </li>
-    
-
-    
-    
-
     
   </ul>
 </nav>
@@ -434,52 +457,116 @@ jane是其中一个相对洁净的theme
 <li>官网见：https://gohugo.io   mac版</li>
 </ul>
 <h1 id="安装git">安装git</h1>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git --version
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-1">1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-2">2</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git --version
 </span></span><span style="display:flex;"><span>brew install git
-</span></span></code></pre></div><h1 id="安装hexo">安装hexo</h1>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install hugo
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="安装hexo">安装hexo</h2>
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-1">1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-1-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-1-2">2</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install hugo
 </span></span><span style="display:flex;"><span>hugo version
-</span></span></code></pre></div><h1 id="本地运行">本地运行</h1>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo init site_name
-</span></span><span style="display:flex;"><span>cd site_name
-</span></span><span style="display:flex;"><span>git clone https://github.com/xianmin/hugo-theme-jane.git --depth<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span> themes/jane   <span style="color:#75715e"># 安装theme</span>
-</span></span><span style="display:flex;"><span>cp themes/jane/exampleSite/config.toml ./  <span style="color:#75715e">#使用them中的配置文件</span>
-</span></span><span style="display:flex;"><span>rm hugo.toml  <span style="color:#75715e"># 删除原配置文件</span>
-</span></span><span style="display:flex;"><span>hugo server <span style="color:#75715e"># 运行</span>
-</span></span></code></pre></div><p>至此，看到#http://localhost:1313/  界面</p>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="本地运行">本地运行</h2>
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-1">1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-2">2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-3">3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-4">4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-5">5</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-6">6</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo init site_name
+</span></span><span style="display:flex;"><span><span style="color:#007020">cd</span> site_name
+</span></span><span style="display:flex;"><span>git clone https://github.com/xianmin/hugo-theme-jane.git --depth<span style="color:#666">=</span><span style="color:#40a070">1</span> themes/jane   <span style="color:#60a0b0;font-style:italic"># 安装theme</span>
+</span></span><span style="display:flex;"><span>cp themes/jane/config-dev.toml ./config.toml  <span style="color:#60a0b0;font-style:italic">#使用theme中的配置文件,这个配置文件很仔细</span>
+</span></span><span style="display:flex;"><span>rm hugo.toml  <span style="color:#60a0b0;font-style:italic"># 删除原配置文件</span>
+</span></span><span style="display:flex;"><span>hugo server <span style="color:#60a0b0;font-style:italic"># 运行</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>至此，看到#http://localhost:1313/  界面</p>
 <blockquote>
 <p>site_name目录为网站根目录，此后所有命令均在根目录下执行。</p>
 </blockquote>
-<h1 id="配置">配置</h1>
+<h2 id="配置">配置</h2>
 <p>按照注释配置即可，无难度。稍微注意：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ini" data-lang="ini"><span style="display:flex;"><span>    <span style="color:#a6e22e">defaultContentLanguage</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;zh-cn&#34; 
-</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    #需要增加
-</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    [languages.zh-cn]
-</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">      languageCode = &#34;zh-cn&#34;
-</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    #并且将theme/i18n的内容复制到 i18n/</span>
-</span></span></code></pre></div><h1 id="约定">约定</h1>
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-1">1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-2">2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-3">3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-4">4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-5">5</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ini" data-lang="ini"><span style="display:flex;"><span>    <span style="color:#4070a0">defaultContentLanguage</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;zh-cn&#34; 
+</span></span></span><span style="display:flex;"><span><span style="color:#4070a0">    #需要增加
+</span></span></span><span style="display:flex;"><span><span style="color:#4070a0">    [languages.zh-cn]
+</span></span></span><span style="display:flex;"><span><span style="color:#4070a0">      languageCode = &#34;zh-cn&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#4070a0">    #并且将theme/i18n的内容复制到 i18n/</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="约定">约定</h2>
 <p>在md文件头上，两个&mdash;之间的部分，称为元数据。
 以下为示例。在全局变量定义过后，依然可以在配置文件中重新定义并覆盖全局变量</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ini" data-lang="ini"><span style="display:flex;"><span>    <span style="color:#a6e22e">title: &#34;网站结构&#34;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">date: 2024-03-06T16:01:23+08:00</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">lastmod: 2024-03-07T16:01:23+08:00</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">draft: false</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">tags: [&#34;hugo&#34;, &#34;建站&#34;]</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">categories: [&#34;技术&#34;]</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">author: </span>
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">weight: 1</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># 定义菜单</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">menu:  </span>
-</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">main:</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">parent: &#34;docs&#34;</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">weight: 1</span>
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-1"> 1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-2"> 2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-3"> 3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-4"> 4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-5"> 5</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-6"> 6</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-7"> 7</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-8"> 8</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-9"> 9</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-10">10</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-11">11</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-12"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-12">12</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-13"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-13">13</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-14"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-14">14</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-15"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-15">15</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-16"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-16">16</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-17"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-17">17</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-18"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-18">18</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-19"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-19">19</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ini" data-lang="ini"><span style="display:flex;"><span>    <span style="color:#4070a0">title: &#34;网站结构&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#4070a0">date: 2024-03-06T16:01:23+08:00</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#4070a0">lastmod: 2024-03-07T16:01:23+08:00</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#4070a0">draft: false</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#4070a0">tags: [&#34;hugo&#34;, &#34;建站&#34;]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#4070a0">categories: [&#34;技术&#34;]</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#4070a0">author: </span>
+</span></span><span style="display:flex;"><span>    <span style="color:#4070a0">weight: 1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#60a0b0;font-style:italic"># 定义菜单</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#4070a0">menu:  </span>
+</span></span><span style="display:flex;"><span>      <span style="color:#4070a0">main:</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#4070a0">parent: &#34;docs&#34;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#4070a0">weight: 1</span>
 </span></span><span style="display:flex;"><span>     
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># comment: false</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># toc: false</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># contentCopyright: &#39;&lt;a href=&#34;https://github.com/gohugoio/hugoBasicExample&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;See origin&lt;/a&gt;&#39;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># reward: false</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># mathjax: true</span>
-</span></span></code></pre></div><h1 id="写文章">写文章</h1>
+</span></span><span style="display:flex;"><span>    <span style="color:#60a0b0;font-style:italic"># comment: false</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#60a0b0;font-style:italic"># toc: false</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#60a0b0;font-style:italic"># contentCopyright: &#39;&lt;a href=&#34;https://github.com/gohugoio/hugoBasicExample&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;See origin&lt;/a&gt;&#39;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#60a0b0;font-style:italic"># reward: false</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#60a0b0;font-style:italic"># mathjax: true</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="写文章">写文章</h2>
 <ul>
 <li>方法1</li>
 </ul>
@@ -490,19 +577,20 @@ jane是其中一个相对洁净的theme
 <p>直接去content/post目录里新建文件，执行<code>hugo</code> 生成静态页面</p>
 </li>
 </ul>
-<h1 id="关联">关联</h1>
+<h2 id="关联">关联</h2>
 <p>此处省去申请github个人网站流程，假设您打开calfen.github.io已经能看到页面。</p>
 <pre tabindex="0"><code>cd public/
 git init
 git remote add origin git@github.com:calfen/calfen.github.io.git
 git push --force origin main ## 注意，此操作将删除github原个人网站。
-</code></pre><h1 id="自定义域名">自定义域名</h1>
+</code></pre><h2 id="自定义域名">自定义域名</h2>
 <p>修改域名：在github.com → setting → pages →custom domain</p>
 <p>网站根目录CNAME.txt为github自动生成</p>
 <blockquote>
 <p>💡 注意，一定要将CNAME放到content下面，这样每次生成静态页面时不会丢失。</p>
 </blockquote>
 <h2 id="自动化">自动化</h2>
+<p>以上发布比较繁琐，我们可以借用官方提供的 GitHub Action 进行 CI 自动发布。</p>
         </div>
 
         
@@ -557,6 +645,17 @@ git push --force origin main ## 注意，此操作将删除github原个人网站
 
   
   
+    <div class="post">
+  <script src="https://utteranc.es/client.js"
+        repo= "calfen/calfen.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+  </script>
+</div>
+
+  
 
   
 
@@ -577,6 +676,13 @@ git push --force origin main ## 注意，此操作将删除github原个人网站
     <div class="toc-content custom-scrollbar">
       <nav id="TableOfContents">
   <ul>
+    <li><a href="#安装hexo">安装hexo</a></li>
+    <li><a href="#本地运行">本地运行</a></li>
+    <li><a href="#配置">配置</a></li>
+    <li><a href="#约定">约定</a></li>
+    <li><a href="#写文章">写文章</a></li>
+    <li><a href="#关联">关联</a></li>
+    <li><a href="#自定义域名">自定义域名</a></li>
     <li><a href="#自动化">自动化</a></li>
   </ul>
 </nav>
@@ -694,7 +800,7 @@ git push --force origin main ## 注意，此操作将删除github原个人网站
 
 
 
-<script type="text/javascript" src="/js/main.3c4a5c889520aa2daf4a1d29b337231d51a9919d6336a496a7c86b37afdd2966.js" integrity="sha256-PEpciJUgqi2vSh0pszcjHVGpkZ1jNqSWp8hrN6/dKWY=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/js/main.87cfe7977f9d2b5fe0bc9cd4469af553de2ec25e135b3230d11ba525588afa68.js" integrity="sha256-h8/nl3&#43;dK1/gvJzURpr1U94uwl4TWzIw0RulJViK&#43;mg=" crossorigin="anonymous"></script>
 
 
 
@@ -726,6 +832,23 @@ git push --force origin main ## 注意，此操作将删除github原个人网站
 
 
 
+
+  <script>
+    $("#openSearch, #openSearchMobile").click(function(){
+      $(".modal-dialog").addClass("visible");
+    });
+
+    $("#closeSearch").click(function(){
+      $(".modal-dialog").removeClass("visible");
+    });
+
+    $(document).click(function(event) {
+    
+      if (!$(event.target).closest(".modal-content, #openSearch, #openSearchMobile").length) {
+        $("body").find(".modal-dialog").removeClass("visible");
+      }
+    });
+  </script>
 
 
 
