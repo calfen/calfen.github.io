@@ -103,7 +103,8 @@ git push --force origin main ## 注意，此操作将删除github原个人网站
 &lt;p&gt;网站根目录CNAME.txt为github自动生成&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;💡 注意，一定要将CNAME放到content下面，这样每次生成静态页面时不会丢失。&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;自动化&#34;&gt;自动化&lt;/h2&gt;</description>
       
     </item>
     
