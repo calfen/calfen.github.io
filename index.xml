@@ -125,7 +125,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#4070a0&#34;&gt;    #并且将theme/i18n的内容复制到 i18n/&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;约定&#34;&gt;约定&lt;/h2&gt;
+&lt;/div&gt;&lt;h2 id=&#34;meta约定&#34;&gt;meta约定&lt;/h2&gt;
 &lt;p&gt;在md文件头上，两个&amp;mdash;之间的部分，称为元数据。
 以下为示例。在全局变量定义过后，依然可以在配置文件中重新定义并覆盖全局变量&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
@@ -172,7 +172,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#60a0b0;font-style:italic&#34;&gt;# mathjax: true&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;写文章&#34;&gt;写文章&lt;/h2&gt;
+&lt;/div&gt;&lt;h2 id=&#34;发表文章&#34;&gt;发表文章&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;方法1&lt;/li&gt;
 &lt;/ul&gt;
@@ -190,8 +190,8 @@
 &lt;p&gt;直接去content/post目录里新建文件，执行&lt;code&gt;hugo&lt;/code&gt; 生成静态页面&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;关联&#34;&gt;关联&lt;/h2&gt;
-&lt;p&gt;此处省去申请github个人网站流程，假设您打开calfen.github.io已经能看到页面。&lt;/p&gt;
+&lt;h2 id=&#34;关联github&#34;&gt;关联github&lt;/h2&gt;
+&lt;p&gt;此处省去申请github个人网站流程，假设您打开calfen.github.io已经能看到页面。public为生成的静态网站，也就是github的个人页面。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
 &lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-9-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-9-1&#34;&gt;1&lt;/a&gt;
@@ -212,9 +212,24 @@
 &lt;blockquote&gt;
 &lt;p&gt;💡 注意，一定要将CNAME放到content下面，这样每次生成静态页面时不会丢失。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&#34;自动化&#34;&gt;自动化&lt;/h2&gt;
+&lt;h2 id=&#34;自动化发布&#34;&gt;自动化发布&lt;/h2&gt;
 &lt;p&gt;以上发布比较繁琐，我们可以借用官方提供的 GitHub Action 进行 CI 自动发布。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;vi .github/workflows/blog_deploy.yml&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;回顾一下：这儿有三个库。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hugo_site网站项目库。我们的目的是提交项目库的时候，利用action，生成public目录自动发布到个人网站&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;hugo网站项目库的themes目录是git的submodule管理的你用的theme库，可以独立更新。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;github个人页面库，也就是public对应的github的库 calfen/calfen.github.io&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hugo_site的public不需要同步，本地看看就行。remote的hugo_site会自动生成。加到.gitignore里&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在本地Hugo_site库中增加文件。&lt;code&gt;vi .github/workflows/blog_deploy.yml&lt;/code&gt; 格式如下。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
 &lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-10-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-10-1&#34;&gt; 1&lt;/a&gt;
@@ -289,14 +304,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#bbb&#34;&gt;                  &lt;/span&gt;&lt;span style=&#34;color:#062873;font-weight:bold&#34;&gt;commit_message&lt;/span&gt;:&lt;span style=&#34;color:#bbb&#34;&gt; &lt;/span&gt;${{ github.event.head_commit.message }}     &lt;span style=&#34;color:#bbb&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;需要弄清楚的几个地方：&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;需要特别注意&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;库：这儿有两个库。
-&lt;ul&gt;
-&lt;li&gt;github个人页面库，也就是calfen/calfen.github.io&lt;/li&gt;
-&lt;li&gt;hugo网站项目库。我们的目的是提交项目库的时候，利用action，将public目录自动发布到个人网站&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
 &lt;li&gt;personal_token: ${{ secrets.access_token }}
 &lt;ul&gt;
 &lt;li&gt;personal_token不用改，指的是github -&amp;gt; settings -&amp;gt; developer settings -&amp;gt; persional access tokens中生成的令牌&lt;/li&gt;

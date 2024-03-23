@@ -102,7 +102,7 @@ jane是其中一个相对洁净的theme
 
 "><meta itemprop="datePublished" content="2024-03-06T16:01:23+08:00" />
 <meta itemprop="dateModified" content="2024-03-07T16:01:23+08:00" />
-<meta itemprop="wordCount" content="1191">
+<meta itemprop="wordCount" content="1374">
 <meta itemprop="keywords" content="hugo,建站," /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="网站结构"/>
 <meta name="twitter:description" content="本站使用hugo&#43;jane&#43;自定义域名实现建站。
 
@@ -546,7 +546,7 @@ jane是其中一个相对洁净的theme
 </span></span></span><span style="display:flex;"><span><span style="color:#4070a0">    #并且将theme/i18n的内容复制到 i18n/</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="约定">约定</h2>
+</div><h2 id="meta约定">meta约定</h2>
 <p>在md文件头上，两个&mdash;之间的部分，称为元数据。
 以下为示例。在全局变量定义过后，依然可以在配置文件中重新定义并覆盖全局变量</p>
 <div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
@@ -593,7 +593,7 @@ jane是其中一个相对洁净的theme
 </span></span><span style="display:flex;"><span>    <span style="color:#60a0b0;font-style:italic"># mathjax: true</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="写文章">写文章</h2>
+</div><h2 id="发表文章">发表文章</h2>
 <ul>
 <li>方法1</li>
 </ul>
@@ -611,8 +611,8 @@ jane是其中一个相对洁净的theme
 <p>直接去content/post目录里新建文件，执行<code>hugo</code> 生成静态页面</p>
 </li>
 </ul>
-<h2 id="关联">关联</h2>
-<p>此处省去申请github个人网站流程，假设您打开calfen.github.io已经能看到页面。</p>
+<h2 id="关联github">关联github</h2>
+<p>此处省去申请github个人网站流程，假设您打开calfen.github.io已经能看到页面。public为生成的静态网站，也就是github的个人页面。</p>
 <div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-1">1</a>
@@ -633,9 +633,24 @@ jane是其中一个相对洁净的theme
 <blockquote>
 <p>💡 注意，一定要将CNAME放到content下面，这样每次生成静态页面时不会丢失。</p>
 </blockquote>
-<h2 id="自动化">自动化</h2>
+<h2 id="自动化发布">自动化发布</h2>
 <p>以上发布比较繁琐，我们可以借用官方提供的 GitHub Action 进行 CI 自动发布。</p>
-<p><code>vi .github/workflows/blog_deploy.yml</code></p>
+<p>回顾一下：这儿有三个库。</p>
+<ul>
+<li>
+<p>hugo_site网站项目库。我们的目的是提交项目库的时候，利用action，生成public目录自动发布到个人网站</p>
+</li>
+<li>
+<p>hugo网站项目库的themes目录是git的submodule管理的你用的theme库，可以独立更新。</p>
+</li>
+<li>
+<p>github个人页面库，也就是public对应的github的库 calfen/calfen.github.io</p>
+<blockquote>
+<p>Hugo_site的public不需要同步，本地看看就行。remote的hugo_site会自动生成。加到.gitignore里</p>
+</blockquote>
+</li>
+</ul>
+<p>在本地Hugo_site库中增加文件。<code>vi .github/workflows/blog_deploy.yml</code> 格式如下。</p>
 <div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-1"> 1</a>
@@ -710,14 +725,8 @@ jane是其中一个相对洁净的theme
 </span></span></span><span style="display:flex;"><span><span style="color:#bbb">                  </span><span style="color:#062873;font-weight:bold">commit_message</span>:<span style="color:#bbb"> </span>${{ github.event.head_commit.message }}     <span style="color:#bbb">
 </span></span></span></code></pre></td></tr></table>
 </div>
-</div><p>需要弄清楚的几个地方：</p>
+</div><p>需要特别注意</p>
 <ul>
-<li>库：这儿有两个库。
-<ul>
-<li>github个人页面库，也就是calfen/calfen.github.io</li>
-<li>hugo网站项目库。我们的目的是提交项目库的时候，利用action，将public目录自动发布到个人网站</li>
-</ul>
-</li>
 <li>personal_token: ${{ secrets.access_token }}
 <ul>
 <li>personal_token不用改，指的是github -&gt; settings -&gt; developer settings -&gt; persional access tokens中生成的令牌</li>
@@ -814,11 +823,11 @@ jane是其中一个相对洁净的theme
     <li><a href="#建立项目">建立项目</a></li>
     <li><a href="#安装theme">安装theme</a></li>
     <li><a href="#配置">配置</a></li>
-    <li><a href="#约定">约定</a></li>
-    <li><a href="#写文章">写文章</a></li>
-    <li><a href="#关联">关联</a></li>
+    <li><a href="#meta约定">meta约定</a></li>
+    <li><a href="#发表文章">发表文章</a></li>
+    <li><a href="#关联github">关联github</a></li>
     <li><a href="#自定义域名">自定义域名</a></li>
-    <li><a href="#自动化">自动化</a></li>
+    <li><a href="#自动化发布">自动化发布</a></li>
   </ul>
 </nav>
     </div>
