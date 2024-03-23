@@ -102,7 +102,7 @@ jane是其中一个相对洁净的theme
 
 "><meta itemprop="datePublished" content="2024-03-06T16:01:23+08:00" />
 <meta itemprop="dateModified" content="2024-03-07T16:01:23+08:00" />
-<meta itemprop="wordCount" content="1105">
+<meta itemprop="wordCount" content="1191">
 <meta itemprop="keywords" content="hugo,建站," /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="网站结构"/>
 <meta name="twitter:description" content="本站使用hugo&#43;jane&#43;自定义域名实现建站。
 
@@ -478,21 +478,48 @@ jane是其中一个相对洁净的theme
 </span></span><span style="display:flex;"><span>hugo version
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="本地运行">本地运行</h2>
+</div><h2 id="建立项目">建立项目</h2>
 <div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-1">1</a>
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-2">2</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-3">3</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-4">4</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-5">5</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-2-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-2-6">6</a>
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 <pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo init site_name
 </span></span><span style="display:flex;"><span><span style="color:#007020">cd</span> site_name
-</span></span><span style="display:flex;"><span>git clone https://github.com/xianmin/hugo-theme-jane.git --depth<span style="color:#666">=</span><span style="color:#40a070">1</span> themes/jane   <span style="color:#60a0b0;font-style:italic"># 安装theme</span>
-</span></span><span style="display:flex;"><span>cp themes/jane/config-dev.toml ./config.toml  <span style="color:#60a0b0;font-style:italic">#使用theme中的配置文件,这个配置文件很仔细</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="安装theme">安装theme</h2>
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-1">1</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git submodule add https://github.com/xianmin/hugo-theme-jane.git themes/jane
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>注意，一个git仓库中的某个目录，依赖另一个仓库时，submodule是个好方法，可以独立更新。这时会在根目录下生成一个 <code>.gitmodules</code> 文件</p>
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-1">1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-2">2</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git submodule init
+</span></span><span style="display:flex;"><span>git submodule update
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>配置文件</p>
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-1">1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-2">2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-3">3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-4">4</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cp themes/jane/config-dev.toml ./config.toml  <span style="color:#60a0b0;font-style:italic">#使用theme中的配置文件,这个配置文件很仔细</span>
+</span></span><span style="display:flex;"><span>cp -r themes/jane/layouts .  <span style="color:#60a0b0;font-style:italic">#复制布局文件</span>
 </span></span><span style="display:flex;"><span>rm hugo.toml  <span style="color:#60a0b0;font-style:italic"># 删除原配置文件</span>
 </span></span><span style="display:flex;"><span>hugo server <span style="color:#60a0b0;font-style:italic"># 运行</span>
 </span></span></code></pre></td></tr></table>
@@ -505,11 +532,11 @@ jane是其中一个相对洁净的theme
 <p>按照注释配置config.toml即可，无难度。稍微注意：</p>
 <div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-1">1</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-2">2</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-3">3</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-4">4</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-3-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-3-5">5</a>
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-1">1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-2">2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-3">3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-4">4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-5">5</a>
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 <pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ini" data-lang="ini"><span style="display:flex;"><span>    <span style="color:#4070a0">defaultContentLanguage</span> <span style="color:#666">=</span> <span style="color:#4070a0">&#34;zh-cn&#34; 
@@ -524,25 +551,25 @@ jane是其中一个相对洁净的theme
 以下为示例。在全局变量定义过后，依然可以在配置文件中重新定义并覆盖全局变量</p>
 <div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-1"> 1</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-2"> 2</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-3"> 3</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-4"> 4</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-5"> 5</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-6"> 6</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-7"> 7</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-8"> 8</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-9"> 9</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-10">10</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-11">11</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-12"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-12">12</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-13"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-13">13</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-14"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-14">14</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-15"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-15">15</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-16"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-16">16</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-17"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-17">17</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-18"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-18">18</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-4-19"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-4-19">19</a>
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-1"> 1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-2"> 2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-3"> 3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-4"> 4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-5"> 5</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-6"> 6</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-7"> 7</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-8"> 8</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-9"> 9</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-10">10</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-11">11</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-12"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-12">12</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-13"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-13">13</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-14"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-14">14</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-15"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-15">15</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-16"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-16">16</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-17"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-17">17</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-18"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-18">18</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-19"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-19">19</a>
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 <pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ini" data-lang="ini"><span style="display:flex;"><span>    <span style="color:#4070a0">title: &#34;网站结构&#34;</span>
@@ -572,7 +599,7 @@ jane是其中一个相对洁净的theme
 </ul>
 <div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-5-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-5-1">1</a>
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-1">1</a>
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 <pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>hugo new post/article_name.md
@@ -588,10 +615,10 @@ jane是其中一个相对洁净的theme
 <p>此处省去申请github个人网站流程，假设您打开calfen.github.io已经能看到页面。</p>
 <div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-1">1</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-2">2</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-3">3</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-6-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-6-4">4</a>
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-1">1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-2">2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-3">3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-9-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-9-4">4</a>
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 <pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#007020">cd</span> public/
@@ -611,40 +638,40 @@ jane是其中一个相对洁净的theme
 <p><code>vi .github/workflows/blog_deploy.yml</code></p>
 <div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-1"> 1</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-2"> 2</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-3"> 3</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-4"> 4</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-5"> 5</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-6"> 6</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-7"> 7</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-8"> 8</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-9"> 9</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-10">10</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-11">11</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-12"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-12">12</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-13"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-13">13</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-14"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-14">14</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-15"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-15">15</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-16"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-16">16</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-17"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-17">17</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-18"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-18">18</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-19"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-19">19</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-20"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-20">20</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-21"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-21">21</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-22"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-22">22</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-23"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-23">23</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-24"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-24">24</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-25"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-25">25</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-26"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-26">26</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-27"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-27">27</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-28"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-28">28</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-29"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-29">29</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-30"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-30">30</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-31"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-31">31</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-32"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-32">32</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-33"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-33">33</a>
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-7-34"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-7-34">34</a>
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-1"> 1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-2"> 2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-3"> 3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-4"> 4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-5"> 5</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-6"> 6</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-7"> 7</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-8"> 8</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-9"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-9"> 9</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-10"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-10">10</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-11"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-11">11</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-12"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-12">12</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-13"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-13">13</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-14"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-14">14</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-15"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-15">15</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-16"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-16">16</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-17"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-17">17</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-18"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-18">18</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-19"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-19">19</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-20"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-20">20</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-21"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-21">21</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-22"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-22">22</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-23"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-23">23</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-24"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-24">24</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-25"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-25">25</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-26"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-26">26</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-27"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-27">27</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-28"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-28">28</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-29"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-29">29</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-30"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-30">30</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-31"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-31">31</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-32"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-32">32</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-33"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-33">33</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-10-34"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-10-34">34</a>
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 <pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#062873;font-weight:bold">name</span>:<span style="color:#bbb"> </span>deploy                                                                                                <span style="color:#bbb">
@@ -784,7 +811,8 @@ jane是其中一个相对洁净的theme
       <nav id="TableOfContents">
   <ul>
     <li><a href="#安装hexo">安装hexo</a></li>
-    <li><a href="#本地运行">本地运行</a></li>
+    <li><a href="#建立项目">建立项目</a></li>
+    <li><a href="#安装theme">安装theme</a></li>
     <li><a href="#配置">配置</a></li>
     <li><a href="#约定">约定</a></li>
     <li><a href="#写文章">写文章</a></li>
