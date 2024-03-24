@@ -439,6 +439,7 @@ $$&lt;/p&gt;
 &lt;li&gt;官网见：https://gohugo.io   mac版&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;安装git&#34;&gt;安装git&lt;/h1&gt;
+&lt;p&gt;要求：git version 2.0以上&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
 &lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-1&#34;&gt;1&lt;/a&gt;
@@ -715,7 +716,14 @@ $$&lt;/p&gt;
 &lt;li&gt;${{ secrets.access_token }}   access_token为项目库中 settings-&amp;gt; secrets and variables 导入的token，这个token的名字为access_token，如果用其他的名字，请修改对应名称&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+&lt;h2 id=&#34;多终端使用&#34;&gt;多终端使用&lt;/h2&gt;
+&lt;p&gt;到现在为止，终端上所需的仅仅是content目录（如果不用hugo命令创建新贴），当content/post里的md文件新增或者改变，并push到远程库后，编译和发布都由github完成。&lt;/p&gt;
+&lt;p&gt;所以，您的多台电脑都可以安装git后，更新hugo_site（也许您是其它名字）库中的md文件。做到随便找到个终端就能发blog了。我甚至用ipad，iphone也能更新网站，只不过如果没有蓝牙键盘，敲字就是个很累的工作。正经干活，还得电脑。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#x1f914; 啥时候ipad os能自带shell，就轻松了。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;当然，如果需要本地查看效果，还是要安装hugo。&lt;/p&gt;</description>
       
     </item>
     
