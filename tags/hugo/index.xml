@@ -8,11 +8,12 @@
     <language>zh-cn</language>
     <managingEditor>calfen@gmail.com (Calfen)</managingEditor>
     <webMaster>calfen@gmail.com (Calfen)</webMaster>
+    <lastBuildDate>Sun, 24 Mar 2024 20:36:52 +0800</lastBuildDate>
     <atom:link href="http://blog.luluren.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>网站结构</title>
       <link>http://blog.luluren.com/post/tech_arch/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>calfen@gmail.com (Calfen)</author>
+      <pubDate>Wed, 20 Mar 2024 16:01:23 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
       <guid>http://blog.luluren.com/post/tech_arch/</guid>
       <description>&lt;p&gt;本站使用hugo+jane+自定义域名实现建站。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Hugo 是一个用Go 编写的静态网站生成器。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;jane是其中一个相对洁净的theme&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;网站托管在github&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
