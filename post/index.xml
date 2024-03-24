@@ -8,7 +8,7 @@
     <language>zh-cn</language>
     <managingEditor>calfen@gmail.com (Calfen)</managingEditor>
     <webMaster>calfen@gmail.com (Calfen)</webMaster>
-    <lastBuildDate>Sun, 24 Mar 2024 20:44:08 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 24 Mar 2024 20:46:25 +0800</lastBuildDate>
     <atom:link href="http://blog.luluren.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>网站结构</title>
@@ -27,7 +27,7 @@
     <item>
       <title>Test_1</title>
       <link>http://blog.luluren.com/post/test_1/</link>
-      <pubDate>Sun, 24 Mar 2024 13:48:36 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
+      <pubDate>Mon, 25 Mar 2024 13:48:36 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
       <guid>http://blog.luluren.com/post/test_1/</guid>
       <description>&lt;p&gt;sdfsdfs，测试发帖&lt;/p&gt;</description>
     </item>
