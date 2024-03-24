@@ -8,19 +8,19 @@
     <language>zh-cn</language>
     <managingEditor>calfen@gmail.com (Calfen)</managingEditor>
     <webMaster>calfen@gmail.com (Calfen)</webMaster>
-    <lastBuildDate>Thu, 07 Mar 2024 16:01:23 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 24 Mar 2024 13:52:20 +0800</lastBuildDate>
     <atom:link href="http://blog.luluren.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>网站结构</title>
       <link>http://blog.luluren.com/post/tech_arch/</link>
-      <pubDate>Wed, 06 Mar 2024 16:01:23 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
+      <pubDate>Wed, 20 Mar 2024 16:01:23 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
       <guid>http://blog.luluren.com/post/tech_arch/</guid>
       <description>&lt;p&gt;本站使用hugo+jane+自定义域名实现建站。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Hugo 是一个用Go 编写的静态网站生成器。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;jane是其中一个相对洁净的theme&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;网站托管在github&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Jane Theme Preview</title>
       <link>http://blog.luluren.com/post/jane-theme-preview/</link>
-      <pubDate>Mon, 01 Jan 2018 16:01:23 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
+      <pubDate>Mon, 01 Jan 2024 16:01:23 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
       <guid>http://blog.luluren.com/post/jane-theme-preview/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Markdown&lt;/strong&gt; is created by &lt;a href=&#34;http://daringfireball.net/&#34;&gt;Daring Fireball&lt;/a&gt;, the original guideline is &lt;a href=&#34;http://daringfireball.net/projects/markdown/syntax&#34;&gt;here&lt;/a&gt;. Its syntax, however, varies between different parsers or editors.&lt;/p&gt;&#xA;&lt;p&gt;Please note that HTML fragments in markdown source will be recognized but not parsed or rendered. Also, there may be small reformatting on the original markdown source code after saving.&lt;/p&gt;</description>
     </item>
