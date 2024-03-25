@@ -8,8 +8,29 @@
     <language>zh-cn</language>
     <managingEditor>calfen@gmail.com (Calfen)</managingEditor>
     <webMaster>calfen@gmail.com (Calfen)</webMaster>
-    <lastBuildDate>Mon, 25 Mar 2024 15:38:44 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 25 Mar 2024 17:39:12 +0800</lastBuildDate>
     <atom:link href="http://blog.luluren.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mac Os</title>
+      <link>http://blog.luluren.com/tags/mac-os/</link>
+      <pubDate>Mon, 25 Mar 2024 16:57:48 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
+      <guid>http://blog.luluren.com/tags/mac-os/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>http://blog.luluren.com/tags/python/</link>
+      <pubDate>Mon, 25 Mar 2024 16:57:48 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
+      <guid>http://blog.luluren.com/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>环境</title>
+      <link>http://blog.luluren.com/tags/%E7%8E%AF%E5%A2%83/</link>
+      <pubDate>Mon, 25 Mar 2024 16:57:48 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
+      <guid>http://blog.luluren.com/tags/%E7%8E%AF%E5%A2%83/</guid>
+      <description></description>
+    </item>
     <item>
       <title>费县</title>
       <link>http://blog.luluren.com/tags/%E8%B4%B9%E5%8E%BF/</link>
@@ -127,27 +148,6 @@
       <link>http://blog.luluren.com/tags/%E7%88%B7%E7%88%B7/</link>
       <pubDate>Mon, 25 Mar 2024 11:23:57 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
       <guid>http://blog.luluren.com/tags/%E7%88%B7%E7%88%B7/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>丰县</title>
-      <link>http://blog.luluren.com/tags/%E4%B8%B0%E5%8E%BF/</link>
-      <pubDate>Mon, 25 Mar 2024 11:21:39 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
-      <guid>http://blog.luluren.com/tags/%E4%B8%B0%E5%8E%BF/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>沂南</title>
-      <link>http://blog.luluren.com/tags/%E6%B2%82%E5%8D%97/</link>
-      <pubDate>Mon, 25 Mar 2024 11:17:54 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
-      <guid>http://blog.luluren.com/tags/%E6%B2%82%E5%8D%97/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>渡河</title>
-      <link>http://blog.luluren.com/tags/%E6%B8%A1%E6%B2%B3/</link>
-      <pubDate>Mon, 25 Mar 2024 10:03:13 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
-      <guid>http://blog.luluren.com/tags/%E6%B8%A1%E6%B2%B3/</guid>
       <description></description>
     </item>
   </channel>
