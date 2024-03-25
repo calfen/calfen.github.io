@@ -1,1 +1,1 @@
-[blog.luluren.com]
+[blog.luluren.com](http://blog.luluren.com)
