@@ -3,14 +3,35 @@
   
   <url>
     <loc>http://blog.luluren.com/categories/</loc>
-    <lastmod>2024-03-24T23:13:51+08:00</lastmod>
+    <lastmod>2024-03-25T10:55:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://blog.luluren.com/post/</loc>
-    <lastmod>2024-03-24T23:13:51+08:00</lastmod>
+    <lastmod>2024-03-25T10:55:42+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.luluren.com/post/%E5%8F%A4%E8%AF%97%E6%BA%90/</loc>
+    <lastmod>2024-03-25T10:55:42+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.luluren.com/</loc>
+    <lastmod>2024-03-25T10:55:42+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.luluren.com/categories/%E6%95%A3%E6%96%87/</loc>
+    <lastmod>2024-03-25T10:55:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -37,13 +58,6 @@
   </url>
   
   <url>
-    <loc>http://blog.luluren.com/</loc>
-    <lastmod>2024-03-24T23:16:36+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://blog.luluren.com/tags/%E6%97%85%E9%80%94/</loc>
     <lastmod>2024-03-24T23:13:51+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -52,13 +66,6 @@
   
   <url>
     <loc>http://blog.luluren.com/post/%E6%97%85%E9%80%94%E5%8E%86%E9%99%A9%E4%BA%8C%E4%B8%89%E4%BA%8B%E5%88%9D%E8%A7%81%E5%B0%8F%E5%81%B7/</loc>
-    <lastmod>2024-03-24T23:13:51+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.luluren.com/categories/%E6%95%A3%E6%96%87/</loc>
     <lastmod>2024-03-24T23:13:51+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
