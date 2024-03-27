@@ -8,7 +8,7 @@
     <language>zh-cn</language>
     <managingEditor>calfen@gmail.com (Calfen)</managingEditor>
     <webMaster>calfen@gmail.com (Calfen)</webMaster>
-    <lastBuildDate>Wed, 27 Mar 2024 15:03:49 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 27 Mar 2024 17:21:59 +0800</lastBuildDate>
     <atom:link href="http://www.luluren.com/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python环境</title>
@@ -27,7 +27,7 @@
     <item>
       <title>Jane Theme Preview</title>
       <link>http://www.luluren.com/post/jane-theme-preview/</link>
-      <pubDate>Tue, 19 Mar 2024 16:01:23 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
+      <pubDate>Mon, 19 Mar 2007 16:01:23 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
       <guid>http://www.luluren.com/post/jane-theme-preview/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Markdown&lt;/strong&gt; is created by &lt;a href=&#34;http://daringfireball.net/&#34;&gt;Daring Fireball&lt;/a&gt;, the original guideline is &lt;a href=&#34;http://daringfireball.net/projects/markdown/syntax&#34;&gt;here&lt;/a&gt;. Its syntax, however, varies between different parsers or editors.&lt;/p&gt;&#xA;&lt;p&gt;Please note that HTML fragments in markdown source will be recognized but not parsed or rendered. Also, there may be small reformatting on the original markdown source code after saving.&lt;/p&gt;</description>
     </item>
