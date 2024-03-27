@@ -20,11 +20,9 @@
       <author>calfen@gmail.com (Calfen)</author>
       <guid>http://blog.luluren.com/post/python%E7%8E%AF%E5%A2%83/</guid>
       
-        <description>&lt;p&gt;在python开发中，开发或者运行环境很重要。本文力求通过一篇文章讲解清晰，在macos和linux环境下，如何正确的理解虚拟环境。&lt;/p&gt;
-&lt;p&gt;环境分三个层面：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;系统python。每个系统，每个版本的python我们只需要装一套，系统默认使用其中一套。拿mac为例，通常通过brew安装&lt;/p&gt;
+        <description>&lt;p&gt;在python开发中，开发或者运行环境很重要。本文力求通过一篇文章讲解清晰，在macos和linux环境下，如何正确的理解开发环境。&lt;/p&gt;
+&lt;h2 id=&#34;系统级环境&#34;&gt;系统级环境&lt;/h2&gt;
+&lt;p&gt;每个系统，每个版本的python我们只需要装一套，系统默认使用其中一套。拿mac为例，通常通过brew安装&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
 &lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-1&#34;&gt; 1&lt;/a&gt;
@@ -73,14 +71,13 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew link --overwrite python@3.9
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;python虚拟环境&lt;/p&gt;
+&lt;/div&gt;&lt;h2 id=&#34;虚拟环境&#34;&gt;虚拟环境&lt;/h2&gt;
 &lt;p&gt;由于不同项目不同的模块之间的依赖关系，通常开发某个项目时需要启用单独的虚拟环境，实现python环境的隔离。&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;虚拟环境实现了python环境和项目的强绑定。&lt;/p&gt;
+&lt;p&gt;虚拟环境实现了每个项目拥有一个运行环境，避免了版本冲突&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;python有自己自带虚拟环境模块venv。TL;DR  以下只是为了理解虚拟环境&lt;/p&gt;
+&lt;p&gt;python有自己自带虚拟环境模块venv。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;  以下只是为了理解虚拟环境&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;通常，我们在项目根目录下安装虚拟环境&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -104,13 +101,252 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007020&#34;&gt;source&lt;/span&gt; .venv/bin/activate
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#666&#34;&gt;(&lt;/span&gt;.venv&lt;span style=&#34;color:#666&#34;&gt;)&lt;/span&gt; calfen@Mac-mini demo % 
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#60a0b0;font-style:italic&#34;&gt;# 在此环境中做一切事情，比如pip install &lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#60a0b0;font-style:italic&#34;&gt;# 推出虚拟环境&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#60a0b0;font-style:italic&#34;&gt;# 退出虚拟环境&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;deactivate
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;</description>
+&lt;/div&gt;&lt;h2 id=&#34;包依赖&#34;&gt;包依赖&lt;/h2&gt;
+&lt;p&gt;起初，我使用reuirements管理第三方包&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;  以下只是为了理解包依赖，还有更好的工具&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# 将目前环境的包依赖导出
+pip freeze &amp;gt; requirements.txt
+# 在目前环境安装包
+pip install -r requrements.txt
+# 管理版本号
+vi requirements.txt
+package_name &amp;gt;=1.0, &amp;lt;=2.0
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;但有个最大的问题：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;无法知晓包之间的关系&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;无法做包删除，使用&lt;code&gt;pip uninstall&lt;/code&gt;的时候，也会因为没有包依赖关系而混乱。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;项目环境&#34;&gt;项目环境&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;虚拟环境+包管理+发布的一体化解决方案.  Poetry管理的是整个python项目&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;有不少第三方工具来做一揽子解决方案，比如Pipenv，Poetry。&lt;/p&gt;
+&lt;p&gt;个人认为Poetry是目前最优的解决方案，各种pycharm等IDE也都支持。&lt;/p&gt;
+&lt;p&gt;&amp;#x1f4a1;我觉得可以做以下简单类比&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;poetry = vevn + pip&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;系统环境+poetry=项目环境&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;安装poetry&#34;&gt;安装poetry&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-3-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-3-1&#34;&gt;1&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-3-2&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-3-2&#34;&gt;2&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-3-3&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-3-3&#34;&gt;3&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-3-4&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-3-4&#34;&gt;4&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-3-5&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-3-5&#34;&gt;5&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-3-6&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-3-6&#34;&gt;6&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-3-7&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-3-7&#34;&gt;7&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-3-8&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-3-8&#34;&gt;8&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew install poetry
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#60a0b0;font-style:italic&#34;&gt;# 或者&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl -sSL https://install.python-poetry.org | python -
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#60a0b0;font-style:italic&#34;&gt;# 安装的路径为&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#bb60d5&#34;&gt;$HOME&lt;/span&gt;/.local/bin/poetry
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#60a0b0;font-style:italic&#34;&gt;# 将其加入path&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;vi ~/.bashrc
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#007020&#34;&gt;export&lt;/span&gt; &lt;span style=&#34;color:#bb60d5&#34;&gt;PATH&lt;/span&gt;&lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#bb60d5&#34;&gt;$PATH&lt;/span&gt;:&lt;span style=&#34;color:#bb60d5&#34;&gt;$HOME&lt;/span&gt;/.local/bin
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;配置poetry&#34;&gt;配置poetry&lt;/h3&gt;
+&lt;p&gt;默认情况下，peotry将虚拟环境统一建在一个和项目无关的地方，我个人喜欢建立在项目的.venv下。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;poetry config virtualenvs.in-project true
+# 有兴趣了解更多的配置，请参考
+poetry config --list
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;生成pyprojecttoml&#34;&gt;生成pyproject.toml&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;pyproject.toml 是Python从&lt;a href=&#34;https://link.zhihu.com/?target=https%3A//peps.python.org/pep-0518/&#34;&gt;PEP 518&lt;/a&gt;开始引入的使用管理项目元数据的方案。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cd project_dir
+#使用poetry初始化项目
+poetry init
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;接下来是一连串交互式问答，做的相当人性化&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;This command will guide you through creating your pyproject.toml config.
+Package name [p]:  poetry_demo
+Version [0.1.0]:  
+Description []:  
+Author [calfen &amp;lt;calfen@gmail.com&amp;gt;, n to skip]:  
+License []:  
+Compatible Python versions [^3.12]:  
+# 是否进入交互式增加包，现在选否
+Would you like to define your main dependencies interactively? (yes/no) [yes] no
+Generated file
+
+[tool.poetry]
+name = &amp;#34;poetry-demo&amp;#34;
+version = &amp;#34;0.1.0&amp;#34;
+description = &amp;#34;&amp;#34;
+authors = [&amp;#34;calfen &amp;lt;calfen@gmail.com&amp;gt;&amp;#34;]
+readme = &amp;#34;README.md&amp;#34;
+
+[tool.poetry.dependencies]
+python = &amp;#34;^3.12&amp;#34;
+[build-system]
+requires = [&amp;#34;poetry-core&amp;#34;]
+build-backend = &amp;#34;poetry.core.masonry.api&amp;#34;
+Do you confirm generation? (yes/no) [yes] yes
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;现在目录里产生了pyproject.toml的文件。&lt;/p&gt;
+&lt;h3 id=&#34;建立虚拟环境&#34;&gt;建立虚拟环境&lt;/h3&gt;
+&lt;p&gt;&amp;#x1f4a1;虚拟环境是运行poetry的前提，你可以建立任系统里已经安装的python版本的虚拟环境，如果不理解，请回到&lt;a href=&#34;http://blog.luluren.com/post/python%E7%8E%AF%E5%A2%83/#系统级环境&#34;&gt;系统级环境&lt;/a&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;brew list|grep python@
+python@3.11
+python@3.12
+python@3.8
+
+poetry env use python3.12
+Creating virtualenv poetry-demo in /Users/calfen/git_code/p/.venv
+Using virtualenv: /Users/calfen/git_code/p/.venv
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;进入与退出虚拟环境&#34;&gt;进入与退出虚拟环境&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;poetry shell
+Spawning shell within /Users/calfen/git_code/p/.venv
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash-3.2$ . /Users/calfen/git_code/p/.venv/bin/activate
+(poetry-demo-py3.12) bash-3.2$ exit
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;peotry流程&#34;&gt;peotry流程&lt;/h3&gt;
+&lt;p&gt;增加模块&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-9-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-9-1&#34;&gt; 1&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-9-2&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-9-2&#34;&gt; 2&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-9-3&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-9-3&#34;&gt; 3&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-9-4&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-9-4&#34;&gt; 4&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-9-5&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-9-5&#34;&gt; 5&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-9-6&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-9-6&#34;&gt; 6&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-9-7&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-9-7&#34;&gt; 7&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-9-8&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-9-8&#34;&gt; 8&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-9-9&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-9-9&#34;&gt; 9&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-9-10&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-9-10&#34;&gt;10&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-9-11&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-9-11&#34;&gt;11&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-9-12&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-9-12&#34;&gt;12&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-9-13&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-9-13&#34;&gt;13&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-9-14&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-9-14&#34;&gt;14&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-9-15&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-9-15&#34;&gt;15&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-9-16&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-9-16&#34;&gt;16&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-9-17&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-9-17&#34;&gt;17&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;poetry add fastapi
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Using version ^0.110.0 &lt;span style=&#34;color:#007020;font-weight:bold&#34;&gt;for&lt;/span&gt; fastapi
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Updating dependencies
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Resolving dependencies... &lt;span style=&#34;color:#666&#34;&gt;(&lt;/span&gt;0.9s&lt;span style=&#34;color:#666&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Package operations: &lt;span style=&#34;color:#40a070&#34;&gt;9&lt;/span&gt; installs, &lt;span style=&#34;color:#40a070&#34;&gt;0&lt;/span&gt; updates, &lt;span style=&#34;color:#40a070&#34;&gt;0&lt;/span&gt; removals
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - Installing idna &lt;span style=&#34;color:#666&#34;&gt;(&lt;/span&gt;3.6&lt;span style=&#34;color:#666&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - Installing sniffio &lt;span style=&#34;color:#666&#34;&gt;(&lt;/span&gt;1.3.1&lt;span style=&#34;color:#666&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - Installing typing-extensions &lt;span style=&#34;color:#666&#34;&gt;(&lt;/span&gt;4.10.0&lt;span style=&#34;color:#666&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - Installing annotated-types &lt;span style=&#34;color:#666&#34;&gt;(&lt;/span&gt;0.6.0&lt;span style=&#34;color:#666&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - Installing anyio &lt;span style=&#34;color:#666&#34;&gt;(&lt;/span&gt;4.3.0&lt;span style=&#34;color:#666&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - Installing pydantic-core &lt;span style=&#34;color:#666&#34;&gt;(&lt;/span&gt;2.16.3&lt;span style=&#34;color:#666&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - Installing pydantic &lt;span style=&#34;color:#666&#34;&gt;(&lt;/span&gt;2.6.4&lt;span style=&#34;color:#666&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - Installing starlette &lt;span style=&#34;color:#666&#34;&gt;(&lt;/span&gt;0.36.3&lt;span style=&#34;color:#666&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - Installing fastapi &lt;span style=&#34;color:#666&#34;&gt;(&lt;/span&gt;0.110.0&lt;span style=&#34;color:#666&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;这时候pyproject.toml也改变了，记录了你要安装的模块，不含依赖模块&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[tool.poetry]                                                                                       
+name = &amp;#34;poetry-demo&amp;#34;
+version = &amp;#34;0.1.0&amp;#34;
+description = &amp;#34;&amp;#34;
+authors = [&amp;#34;calfen &amp;lt;calfen@gmail.com&amp;gt;&amp;#34;]
+readme = &amp;#34;README.md&amp;#34;
+
+[tool.poetry.dependencies]
+python = &amp;#34;^3.12&amp;#34;
+fastapi = &amp;#34;^0.110.0&amp;#34;
+
+
+[build-system]
+requires = [&amp;#34;poetry-core&amp;#34;]
+build-backend = &amp;#34;poetry.core.masonry.api&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;其他所有的依赖都在peorty.lock里，这相当于以前的reuirements.txt&lt;/p&gt;
+&lt;p&gt;当执行 &lt;code&gt; poetry add&lt;/code&gt;的时候，自动完成了三件事&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;更新pyproject.toml。&lt;/li&gt;
+&lt;li&gt;依照pyproject.toml的內容，更新poetry.lock。&lt;/li&gt;
+&lt;li&gt;依照poetry.lock的內容，更新虚拟环境&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;详解pyprojecttoml&#34;&gt;详解pyproject.toml&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-11-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-11-1&#34;&gt; 1&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-11-2&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-11-2&#34;&gt; 2&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-11-3&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-11-3&#34;&gt; 3&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-11-4&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-11-4&#34;&gt; 4&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-11-5&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-11-5&#34;&gt; 5&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-11-6&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-11-6&#34;&gt; 6&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-11-7&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-11-7&#34;&gt; 7&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-11-8&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-11-8&#34;&gt; 8&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-11-9&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-11-9&#34;&gt; 9&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-11-10&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-11-10&#34;&gt;10&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#60a0b0;font-style:italic&#34;&gt;# 可以安装与版本字符串最左边的非零数字匹配的任何版本 0.110.*&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#bb60d5&#34;&gt;fastapi&lt;/span&gt; &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#34;^0.110.0&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#60a0b0;font-style:italic&#34;&gt;# 固定版本&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#bb60d5&#34;&gt;django&lt;/span&gt; &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; 4.2.9
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#60a0b0;font-style:italic&#34;&gt;# 可以安装与版本字符串最左边ID二哥的非零数字匹配的任何版本。也就是4.2.*&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#bb60d5&#34;&gt;django&lt;/span&gt; &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; ~4.2.9
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#60a0b0;font-style:italic&#34;&gt;# 通配&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#bb60d5&#34;&gt;django&lt;/span&gt; &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; 4.2.*
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#60a0b0;font-style:italic&#34;&gt;# 区间&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;flask &amp;gt;&lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; 1.2，&amp;lt; 1.5
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;常用命令&#34;&gt;常用命令&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-12-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-12-1&#34;&gt; 1&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-12-2&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-12-2&#34;&gt; 2&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-12-3&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-12-3&#34;&gt; 3&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-12-4&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-12-4&#34;&gt; 4&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-12-5&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-12-5&#34;&gt; 5&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-12-6&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-12-6&#34;&gt; 6&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-12-7&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-12-7&#34;&gt; 7&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-12-8&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-12-8&#34;&gt; 8&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-12-9&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-12-9&#34;&gt; 9&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-12-10&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-12-10&#34;&gt;10&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-12-11&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-12-11&#34;&gt;11&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-12-12&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-12-12&#34;&gt;12&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-12-13&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-12-13&#34;&gt;13&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-12-14&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-12-14&#34;&gt;14&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-12-15&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-12-15&#34;&gt;15&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-12-16&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-12-16&#34;&gt;16&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#60a0b0;font-style:italic&#34;&gt;# 增加模块&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;poetry add module_name
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#60a0b0;font-style:italic&#34;&gt;# 更新poetry.lock&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;poetry lock
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#60a0b0;font-style:italic&#34;&gt;# 更新套件&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;poetry update
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#60a0b0;font-style:italic&#34;&gt;# 只在开发环境使用（有些套件，比如pytest、flake8等等，只會在開發環境中使用）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;poetry add module_name --group dev
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;poetry add module_name -D dev
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#60a0b0;font-style:italic&#34;&gt;# 列出全部模块&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;poetry show tree
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#60a0b0;font-style:italic&#34;&gt;# 移除&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;poetry remove -D
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#60a0b0;font-style:italic&#34;&gt;# 导出 requirements&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;poetry &lt;span style=&#34;color:#007020&#34;&gt;export&lt;/span&gt; -f requirements.txt -o requirements.txt --without-hashes
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;[to be continued]&lt;/p&gt;</description>
       
     </item>
     

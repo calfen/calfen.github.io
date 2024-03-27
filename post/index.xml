@@ -8,14 +8,14 @@
     <language>zh-cn</language>
     <managingEditor>calfen@gmail.com (Calfen)</managingEditor>
     <webMaster>calfen@gmail.com (Calfen)</webMaster>
-    <lastBuildDate>Mon, 25 Mar 2024 17:39:12 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 27 Mar 2024 14:55:29 +0800</lastBuildDate>
     <atom:link href="http://blog.luluren.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python环境</title>
       <link>http://blog.luluren.com/post/python%E7%8E%AF%E5%A2%83/</link>
       <pubDate>Mon, 25 Mar 2024 16:57:48 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
       <guid>http://blog.luluren.com/post/python%E7%8E%AF%E5%A2%83/</guid>
-      <description>&lt;p&gt;在python开发中，开发或者运行环境很重要。本文力求通过一篇文章讲解清晰，在macos和linux环境下，如何正确的理解虚拟环境。&lt;/p&gt;</description>
+      <description>&lt;p&gt;在python开发中，开发或者运行环境很重要。本文力求通过一篇文章讲解清晰，在macos和linux环境下，如何正确的理解开发环境。&lt;/p&gt;</description>
     </item>
     <item>
       <title>我的舅舅</title>
