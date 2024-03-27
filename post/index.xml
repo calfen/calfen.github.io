@@ -2,138 +2,138 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 林中求马</title>
-    <link>http://blog.luluren.com/post/</link>
+    <link>http://www.luluren.com/post/</link>
     <description>Recent content in Posts on 林中求马</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <managingEditor>calfen@gmail.com (Calfen)</managingEditor>
     <webMaster>calfen@gmail.com (Calfen)</webMaster>
     <lastBuildDate>Wed, 27 Mar 2024 15:08:31 +0800</lastBuildDate>
-    <atom:link href="http://blog.luluren.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.luluren.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python环境</title>
-      <link>http://blog.luluren.com/post/python%E7%8E%AF%E5%A2%83/</link>
+      <link>http://www.luluren.com/post/python%E7%8E%AF%E5%A2%83/</link>
       <pubDate>Mon, 25 Mar 2024 16:57:48 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
-      <guid>http://blog.luluren.com/post/python%E7%8E%AF%E5%A2%83/</guid>
+      <guid>http://www.luluren.com/post/python%E7%8E%AF%E5%A2%83/</guid>
       <description>&lt;p&gt;在python开发中，开发或者运行环境很重要。&lt;/p&gt;&#xA;&lt;p&gt;隆重推出Poetry，一款优秀的python开发环境管理工具。&lt;/p&gt;&#xA;&lt;p&gt;就像某个大神说的那样：&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;h2 id=&#34;井然有序的複雜&#34;&gt;井然有序的複雜&lt;/h2&gt;&#xA;&lt;p&gt;使用 Poetry 來管理專案的套件與虛擬環境，需要一定的學習成本，但帶來的效益還是相當可觀的，尤其在你希望能夠乾淨且安心地移除套件之際，可謂莫它莫屬。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;本文力求通过一篇文章讲解清晰，在macos和linux环境下，如何正确的理解开发环境。&lt;/p&gt;</description>
     </item>
     <item>
       <title>我的舅舅</title>
-      <link>http://blog.luluren.com/post/%E6%88%91%E7%9A%84%E8%88%85%E8%88%85/</link>
+      <link>http://www.luluren.com/post/%E6%88%91%E7%9A%84%E8%88%85%E8%88%85/</link>
       <pubDate>Mon, 25 Mar 2024 15:27:28 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
-      <guid>http://blog.luluren.com/post/%E6%88%91%E7%9A%84%E8%88%85%E8%88%85/</guid>
+      <guid>http://www.luluren.com/post/%E6%88%91%E7%9A%84%E8%88%85%E8%88%85/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;注：这篇帖子大概2007年左右写的，一晃二十年又过去，舅舅已经去世八年，享年86岁。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;舅舅旧时是上私塾的，练的一手好字。虽是个农民，但相当儒雅，好养花。农忙时种地，春节时写对联，平时则卖花，听妈说在当地人缘很好。母亲说当年家里筹钱取了我的第一任妗子，嫁过来以后发现人家整天闷闷不乐。舅舅问了原因，才发现人家早有相好，只是父母之命，媒妁之言才嫁到马家。舅舅征求了她的意见，让她和自己相好去过了，彩礼也没往回要。这在当时是相当民主的事情。舅舅待人接物可见一斑。&lt;/p&gt;</description>
     </item>
     <item>
       <title>作家</title>
-      <link>http://blog.luluren.com/post/%E4%BD%9C%E5%AE%B6/</link>
+      <link>http://www.luluren.com/post/%E4%BD%9C%E5%AE%B6/</link>
       <pubDate>Mon, 25 Mar 2024 14:53:16 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
-      <guid>http://blog.luluren.com/post/%E4%BD%9C%E5%AE%B6/</guid>
+      <guid>http://www.luluren.com/post/%E4%BD%9C%E5%AE%B6/</guid>
       <description>&lt;p&gt;作家并不希罕，我们家就曾经出现过一个半。&lt;/p&gt;&#xA;&lt;p&gt;一个是激浪鱼，之所以取这个笔名，是想让自己象激浪鱼一样充满生机，克服困难。她适合当作家，首先记忆力超群，几乎过目不忘，这就具备了作家的基础；从小看的小说很多，当然大都是打发时间，看个热闹。不过人说&amp;quot;熟读唐诗三百首，不会写诗也会诌&amp;quot;，人家人间冷暖、事事苍凉全在书中经历过。谈起来对某些事情的看法，小嘴说起来也是巴巴的，一听就知道肚里有货，电视剧也是看个开头就知道结果，那编剧在他面前象个白痴。那位说了，你甭吹了，俺读书也不少，怎么没听过激浪鱼这个名头啊。别急嘛，且听我慢慢道来。&lt;/p&gt;</description>
     </item>
     <item>
       <title>上海公交112</title>
-      <link>http://blog.luluren.com/post/%E6%97%85%E9%80%94%E5%8E%86%E9%99%A9%E4%BA%8C%E4%B8%89%E4%BA%8B--%E5%85%AC%E4%BA%A4112/</link>
+      <link>http://www.luluren.com/post/%E6%97%85%E9%80%94%E5%8E%86%E9%99%A9%E4%BA%8C%E4%B8%89%E4%BA%8B--%E5%85%AC%E4%BA%A4112/</link>
       <pubDate>Mon, 25 Mar 2024 14:39:56 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
-      <guid>http://blog.luluren.com/post/%E6%97%85%E9%80%94%E5%8E%86%E9%99%A9%E4%BA%8C%E4%B8%89%E4%BA%8B--%E5%85%AC%E4%BA%A4112/</guid>
+      <guid>http://www.luluren.com/post/%E6%97%85%E9%80%94%E5%8E%86%E9%99%A9%E4%BA%8C%E4%B8%89%E4%BA%8B--%E5%85%AC%E4%BA%A4112/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;后注。这应该是03-07年期间的帖子，那时候在南京路上班，天天乘坐公交112。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;[下班后，我象往常一样挤上了回家的公交车。还是那么拥挤，还是这么多人，可我并没觉得艰苦，至少我还可以活动，没有被被挤的脸扭贴在车门玻璃上，腮帮子压成扁平状，动也不能动，凄惨的看着过往的车辆。可下车的时候我比任何时候都沮丧，因为作为一个老江湖，今天被偷了手机。&lt;/p&gt;&#xA;&lt;p&gt;112路车就是这样，总能让你百感交集。这是一部让人望眼欲穿的车，一部承载了太多内容的车，一部充满了革命斗争精神的车。&lt;/p&gt;</description>
     </item>
     <item>
       <title>上海公交112（续）</title>
-      <link>http://blog.luluren.com/post/%E6%97%85%E9%80%94%E5%8E%86%E9%99%A9%E4%BA%8C%E4%B8%89%E4%BA%8B--%E5%85%AC%E4%BA%A4/</link>
+      <link>http://www.luluren.com/post/%E6%97%85%E9%80%94%E5%8E%86%E9%99%A9%E4%BA%8C%E4%B8%89%E4%BA%8B--%E5%85%AC%E4%BA%A4/</link>
       <pubDate>Mon, 25 Mar 2024 12:00:21 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
-      <guid>http://blog.luluren.com/post/%E6%97%85%E9%80%94%E5%8E%86%E9%99%A9%E4%BA%8C%E4%B8%89%E4%BA%8B--%E5%85%AC%E4%BA%A4/</guid>
+      <guid>http://www.luluren.com/post/%E6%97%85%E9%80%94%E5%8E%86%E9%99%A9%E4%BA%8C%E4%B8%89%E4%BA%8B--%E5%85%AC%E4%BA%A4/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;后注。这应该是03-07年期间的帖子，那时候在南京路上班，天天乘坐公交112。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;112路车的故事，三天三夜也说不玩，下面这个却是记忆中最经典的一个。&lt;/p&gt;&#xA;&lt;p&gt;硬的怕横的，横的怕不要命的。诸位看官，想坐112，有时就需要不要命。&lt;/p&gt;&#xA;&lt;p&gt;话说那天车子刚刚停稳，呼啦拉上来十几个，前门中门挤的满满的，真如铁桶一般，那是相～当严实啊。还没上来的大都看看没希望，宣布放弃，退回站头蓄力进行下一轮的攻击。偏偏有三个人还是拽住车门不放，拼命的往里挤。&lt;/p&gt;</description>
     </item>
     <item>
       <title>旅途历险二三事  春运</title>
-      <link>http://blog.luluren.com/post/%E6%97%85%E9%80%94%E5%8E%86%E9%99%A9%E4%BA%8C%E4%B8%89%E4%BA%8B--%E6%98%A5%E8%BF%90/</link>
+      <link>http://www.luluren.com/post/%E6%97%85%E9%80%94%E5%8E%86%E9%99%A9%E4%BA%8C%E4%B8%89%E4%BA%8B--%E6%98%A5%E8%BF%90/</link>
       <pubDate>Mon, 25 Mar 2024 11:55:39 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
-      <guid>http://blog.luluren.com/post/%E6%97%85%E9%80%94%E5%8E%86%E9%99%A9%E4%BA%8C%E4%B8%89%E4%BA%8B--%E6%98%A5%E8%BF%90/</guid>
+      <guid>http://www.luluren.com/post/%E6%97%85%E9%80%94%E5%8E%86%E9%99%A9%E4%BA%8C%E4%B8%89%E4%BA%8B--%E6%98%A5%E8%BF%90/</guid>
       <description>&lt;p&gt;家在外地，还没孩子的朋友，每年春节总是要回家。外面生活打拼不容易，歌里唱得好：&amp;ldquo;离家的孩子流浪在外边，没有那好衣裳，也没有好烟。&amp;ldquo;回家是为了安慰父母，为了寻找一份依赖的感觉，也是为了能穿上好衣服，抽上好烟。&lt;/p&gt;&#xA;&lt;p&gt;对春运的感觉是从大学开始的，那时候思想观念还没有如今这么开放，守土观念很强，出来为了生计打工的不多。所以流动人口比现在少一些，可车子也少，人和车的比例则高过现在。春运高峰时候可以用恐怖来形容。我基本是放假不愿回家，假期结束不肯上学，想起来要挤火车则两股战战，几欲先走。到现在也心有余悸。就像大学时候害怕考试一样，做梦都能吓醒。&lt;/p&gt;</description>
     </item>
     <item>
       <title>怪力乱神  鬼火</title>
-      <link>http://blog.luluren.com/post/%E6%80%AA%E5%8A%9B%E4%B9%B1%E7%A5%9E--%E9%AC%BC%E7%81%AB/</link>
+      <link>http://www.luluren.com/post/%E6%80%AA%E5%8A%9B%E4%B9%B1%E7%A5%9E--%E9%AC%BC%E7%81%AB/</link>
       <pubDate>Mon, 25 Mar 2024 11:37:56 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
-      <guid>http://blog.luluren.com/post/%E6%80%AA%E5%8A%9B%E4%B9%B1%E7%A5%9E--%E9%AC%BC%E7%81%AB/</guid>
+      <guid>http://www.luluren.com/post/%E6%80%AA%E5%8A%9B%E4%B9%B1%E7%A5%9E--%E9%AC%BC%E7%81%AB/</guid>
       <description>&lt;p&gt;说起飘动的鬼火我也见过，是人骨头里的磷燃烧了而已，它跟着人动，是人带动了气流，小学自然课就学过了。想骗我也没那么容易，十万个为什么可不是白看的。&lt;/p&gt;&#xA;&lt;p&gt;虽然鬼火有科学的解释，可放在特定的环境中，却还是会显得光怪陆离，如果你是那个亲身经历的人，则会永生难忘。听听我姐夫在90年代，当时一个40出头的中学教师，面带神秘，言语激昂，甚至有些惊恐的描述吧。&lt;/p&gt;</description>
     </item>
     <item>
       <title>怪力乱神  憨拴</title>
-      <link>http://blog.luluren.com/post/%E6%80%AA%E5%8A%9B%E4%B9%B1%E7%A5%9E--%E6%86%A8%E4%B8%89/</link>
+      <link>http://www.luluren.com/post/%E6%80%AA%E5%8A%9B%E4%B9%B1%E7%A5%9E--%E6%86%A8%E4%B8%89/</link>
       <pubDate>Mon, 25 Mar 2024 11:27:10 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
-      <guid>http://blog.luluren.com/post/%E6%80%AA%E5%8A%9B%E4%B9%B1%E7%A5%9E--%E6%86%A8%E4%B8%89/</guid>
+      <guid>http://www.luluren.com/post/%E6%80%AA%E5%8A%9B%E4%B9%B1%E7%A5%9E--%E6%86%A8%E4%B8%89/</guid>
       <description>&lt;p&gt;人到老了就特别容易给后辈们讲故事，故事的重复频率也随着年龄的增长而加快。开始是一个事情三五年以后会作为一个新故事讲，后来会缩短到半年，爷爷九十多的时候，已经是几个月一次了。其实他知道自己讲过了，而且我也很卖力的听，周瑜打黄盖，大家都高兴就行了。&lt;/p&gt;&#xA;&lt;p&gt;故事从叙述人的嘴里讲出来，听说的占大半，自己经历的也不少。至于其中哪些是真实的描述，哪些已经经过了大脑的加工，则无从辨析了。&lt;/p&gt;&#xA;&lt;p&gt;开场先讲个父亲小时候的真实经历吧。&lt;/p&gt;</description>
     </item>
     <item>
       <title>怪力乱神  托梦</title>
-      <link>http://blog.luluren.com/post/%E6%80%AA%E5%8A%9B%E4%B9%B1%E7%A5%9E--%E6%89%98%E6%A2%A6/</link>
+      <link>http://www.luluren.com/post/%E6%80%AA%E5%8A%9B%E4%B9%B1%E7%A5%9E--%E6%89%98%E6%A2%A6/</link>
       <pubDate>Mon, 25 Mar 2024 11:23:57 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
-      <guid>http://blog.luluren.com/post/%E6%80%AA%E5%8A%9B%E4%B9%B1%E7%A5%9E--%E6%89%98%E6%A2%A6/</guid>
+      <guid>http://www.luluren.com/post/%E6%80%AA%E5%8A%9B%E4%B9%B1%E7%A5%9E--%E6%89%98%E6%A2%A6/</guid>
       <description>&lt;p&gt;爷爷到底没有能活到二十一世纪，他老人家光绪年间生人，在五十年国庆前去世，还算长寿。&lt;/p&gt;&#xA;&lt;p&gt;俗话说入土为安，土葬虽然违反了国家政策，毕竟这是老人家的心愿。加上他生前比较要朋友，十里八乡为人还不错，也不能一声不吭的走了，操办一下，也算给老人家一生做上个句号。只是由于我们离老家比较远，所以暂时找了块墓地，也没敢声张，夜里磕头下葬的。按老规矩三年出老殡，到时候把他的棺材再起回老家去。&lt;/p&gt;</description>
     </item>
     <item>
       <title>怪力乱神  前世</title>
-      <link>http://blog.luluren.com/post/%E6%80%AA%E5%8A%9B%E4%B9%B1%E7%A5%9E--%E5%89%8D%E4%B8%96/</link>
+      <link>http://www.luluren.com/post/%E6%80%AA%E5%8A%9B%E4%B9%B1%E7%A5%9E--%E5%89%8D%E4%B8%96/</link>
       <pubDate>Mon, 25 Mar 2024 11:21:39 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
-      <guid>http://blog.luluren.com/post/%E6%80%AA%E5%8A%9B%E4%B9%B1%E7%A5%9E--%E5%89%8D%E4%B8%96/</guid>
+      <guid>http://www.luluren.com/post/%E6%80%AA%E5%8A%9B%E4%B9%B1%E7%A5%9E--%E5%89%8D%E4%B8%96/</guid>
       <description>&lt;p&gt;村子里有个四奶奶，年轻时候是从不远的村子嫁过来的，本地人。跟大家平时没什么分别，也挺勤快的。&lt;/p&gt;&#xA;&lt;p&gt;大概是解放前后，一天，四奶奶从地里干活回来，回家的时候一口的外地话，说自己是从日照过来的，哪县哪乡哪村子，家里还有谁谁谁。当时他们家的人吓傻了，却不知道该怎么办，这样持续了不少天。&lt;/p&gt;</description>
     </item>
     <item>
       <title>怪力乱神  怪兽</title>
-      <link>http://blog.luluren.com/post/%E6%80%AA%E5%8A%9B%E4%B9%B1%E7%A5%9E--%E6%80%AA%E5%85%BD/</link>
+      <link>http://www.luluren.com/post/%E6%80%AA%E5%8A%9B%E4%B9%B1%E7%A5%9E--%E6%80%AA%E5%85%BD/</link>
       <pubDate>Mon, 25 Mar 2024 11:17:54 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
-      <guid>http://blog.luluren.com/post/%E6%80%AA%E5%8A%9B%E4%B9%B1%E7%A5%9E--%E6%80%AA%E5%85%BD/</guid>
+      <guid>http://www.luluren.com/post/%E6%80%AA%E5%8A%9B%E4%B9%B1%E7%A5%9E--%E6%80%AA%E5%85%BD/</guid>
       <description>&lt;p&gt;时代一直在变，物种也在灭绝或者新生。现在不经常见到的现象，不等于就是假的。科学证明的确有个恐龙时代，只是全灭绝了而已，可清末还有人见过龙。大家都说他是编造的，其实，也可能是偶尔留下来的几只呢？国语：&amp;ldquo;唐叔射兕于徒林&amp;rdquo;，兕这种动物，如果今天出现在大街上，多数人也会看作怪兽，跪下磕头。&lt;/p&gt;&#xA;&lt;p&gt;今天说的两件事情，却都是水里的，在农耕经济时代，水里是较少收到人类影响的地方。&lt;/p&gt;</description>
     </item>
     <item>
       <title>古诗源</title>
-      <link>http://blog.luluren.com/post/%E5%8F%A4%E8%AF%97%E6%BA%90/</link>
+      <link>http://www.luluren.com/post/%E5%8F%A4%E8%AF%97%E6%BA%90/</link>
       <pubDate>Mon, 25 Mar 2024 10:03:13 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
-      <guid>http://blog.luluren.com/post/%E5%8F%A4%E8%AF%97%E6%BA%90/</guid>
+      <guid>http://www.luluren.com/post/%E5%8F%A4%E8%AF%97%E6%BA%90/</guid>
       <description>&lt;p&gt;古诗比唐诗，不及之处在于运词不够华丽精妙，优秀之处则在质朴无华。&lt;/p&gt;&#xA;&lt;p&gt;此处谈到的古诗，是狭义的古诗，特指唐宋以前的诗。读古诗，首推《古诗源》，清人所作。我家民国时候还有一套，竹纸印刷。我父亲小时候还见过，说家里祖上几代应该有人识字，否则不会有这种东西。可惜，还没等到解放，就被我的文盲爷爷烧灶引火用掉了。&lt;/p&gt;&#xA;&lt;p&gt;中华书局有个版本不错，繁体竖排。我认为读古书特别是古诗最好用繁体版本，反正每次看个几首，也不会太累。&lt;/p&gt;</description>
     </item>
     <item>
       <title>旅途历险二三事 小偷</title>
-      <link>http://blog.luluren.com/post/%E6%97%85%E9%80%94%E5%8E%86%E9%99%A9%E4%BA%8C%E4%B8%89%E4%BA%8B%E5%88%9D%E8%A7%81%E5%B0%8F%E5%81%B7/</link>
+      <link>http://www.luluren.com/post/%E6%97%85%E9%80%94%E5%8E%86%E9%99%A9%E4%BA%8C%E4%B8%89%E4%BA%8B%E5%88%9D%E8%A7%81%E5%B0%8F%E5%81%B7/</link>
       <pubDate>Sun, 24 Mar 2024 23:06:07 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
-      <guid>http://blog.luluren.com/post/%E6%97%85%E9%80%94%E5%8E%86%E9%99%A9%E4%BA%8C%E4%B8%89%E4%BA%8B%E5%88%9D%E8%A7%81%E5%B0%8F%E5%81%B7/</guid>
+      <guid>http://www.luluren.com/post/%E6%97%85%E9%80%94%E5%8E%86%E9%99%A9%E4%BA%8C%E4%B8%89%E4%BA%8B%E5%88%9D%E8%A7%81%E5%B0%8F%E5%81%B7/</guid>
       <description>&lt;p&gt;&amp;ldquo;人在江湖漂，哪能不挨刀&amp;rdquo;，行走江湖十几年，总有些惊心动魄的事情发生。有些事情以后可能不会发生，而且，我也不希望它们再次发生。&lt;/p&gt;&#xA;&lt;p&gt;长途汽车上通常是行骗和作案的高发区。记得那是刚出道不久，从家到学校的路上。我背着一个鼓鼓囊囊的牛仔包，里面主要是换洗衣服，现在想想加起来应该卖不了五百块。而真正的宝藏藏在鞋子里，鞋垫下面有食品袋包住的小包，里面是五百元钱，两只脚加起来一千块，是我一学期的生活费。一个月花一百五，每年我总能剩下两百快作为旅游的川资。别忘了，我是个喜欢&amp;quot;江&amp;quot;&amp;ldquo;湖&amp;quot;的江湖人士。&lt;/p&gt;</description>
     </item>
     <item>
       <title>汉字的正误</title>
-      <link>http://blog.luluren.com/post/%E6%B1%89%E5%AD%97%E7%9A%84%E6%AD%A3%E8%AF%AF/</link>
+      <link>http://www.luluren.com/post/%E6%B1%89%E5%AD%97%E7%9A%84%E6%AD%A3%E8%AF%AF/</link>
       <pubDate>Sun, 24 Mar 2024 22:58:19 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
-      <guid>http://blog.luluren.com/post/%E6%B1%89%E5%AD%97%E7%9A%84%E6%AD%A3%E8%AF%AF/</guid>
+      <guid>http://www.luluren.com/post/%E6%B1%89%E5%AD%97%E7%9A%84%E6%AD%A3%E8%AF%AF/</guid>
       <description>&lt;p&gt;邓拓先生是我一直敬仰的一个人，《燕山夜话》为其代表作。文章善于运用典故，引申或者深化某个论点，写作手法一直是报纸杂论的典范。当然，《夜话》的文中也有许多我不赞成的观点。&lt;/p&gt;&#xA;&lt;p&gt;其中有一篇《错在&amp;quot;目不识丁&amp;quot;吗？》中有以下一段：&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;的确，一般人平常都不免会读错别字，读别字比读错字的更要普遍。比如姓&amp;quot;费&amp;quot;的，别人往往叫他&amp;quot;老肺&amp;quot;，而不叫他&amp;quot;老闭&amp;quot;；甚至于他本人也把&amp;quot;费&amp;quot;字念成&amp;quot;肺&amp;quot;的音，而不念&amp;quot;闭&amp;quot;的音。同样，许多人对于姓&amp;quot;解&amp;quot;的，总是把他叫做&amp;quot;老姐&amp;quot;，而不叫做&amp;quot;老械&amp;quot;，他自己也不例外；甚至于&amp;quot;老姐&amp;quot;、&amp;ldquo;老械&amp;quot;都不叫，而叫做&amp;quot;老改&amp;rdquo;。同类的例子还多得很。乍听起来，你会觉得非常别扭，但是，久而久之，也听惯了，不觉得有什么错误，似乎怎么念都可以了。&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
     </item>
     <item>
       <title>我所怀念的几位先生</title>
-      <link>http://blog.luluren.com/post/techer/</link>
+      <link>http://www.luluren.com/post/techer/</link>
       <pubDate>Sun, 24 Mar 2024 22:37:40 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
-      <guid>http://blog.luluren.com/post/techer/</guid>
+      <guid>http://www.luluren.com/post/techer/</guid>
       <description>&lt;p&gt;&amp;#x1f506;    &lt;strong&gt;师者，传业授道解惑者也&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;近日看《民国这些人》，可称大师者必学冠中西、且于某某大学任教。但回顾自己的学习经历，留下深刻印象的却是中学小学的先生。为人师表不只在学问，也在于真情。&lt;/p&gt;&#xA;&lt;p&gt;第一个是我在附小的老师。邻居家来引煤球，将通红的火炭放在我家炉子旁边。小时调皮，有夜游神之称，目光呆滞，走路不看路，经常走到一半不知道自己要去哪儿。踩到煤球时的反应倒是很快，一蹦三尺多高，作了两个月的残疾人。虽然从家里到附小没有多远的距离，该老师中午必留我在她家吃饭，而且白米饭里必拌两勺白糖。那年头天天吃白糖可真不容易，我记得自己流出了幸福的热泪。&lt;/p&gt;</description>
     </item>
     <item>
       <title>送瘟神</title>
-      <link>http://blog.luluren.com/post/anti_ascaris/</link>
+      <link>http://www.luluren.com/post/anti_ascaris/</link>
       <pubDate>Sun, 24 Mar 2024 13:48:36 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
-      <guid>http://blog.luluren.com/post/anti_ascaris/</guid>
+      <guid>http://www.luluren.com/post/anti_ascaris/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;绿水青山枉自多，华佗无奈小虫何！&lt;/p&gt;&#xA;&lt;p&gt;千村薜荔人遗矢，万户萧疏鬼唱歌。&lt;/p&gt;&#xA;&lt;p&gt;坐地日行八万里，巡天遥看一千河。&lt;/p&gt;&#xA;&lt;p&gt;牛郎欲问瘟神事，一样悲欢逐逝波。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;主席这首《送瘟神》说的是消灭血吸虫。我成长在北方，血吸虫倒是没见过。今天bbs里神侃，说起蛔虫。同年代的人大都有得蛔虫病史，80年代成长的小孩则没有太多概念。回首往昔，对比今朝，发现虽然有种种的不如意，人民群众的医疗和生活还是在不断提高的。为了讴歌共产党的英明领导，为十七大献礼，同时给青少年忆苦思甜。我姑且舍弃一张老脸，挖掘出自己的龌龊事，请您安静的坐在电脑前，静心听我讲那过去的事情。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;下文含有恶心场景，抵抗力差的请自行离开。&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>网站结构</title>
-      <link>http://blog.luluren.com/post/tech_arch/</link>
+      <link>http://www.luluren.com/post/tech_arch/</link>
       <pubDate>Fri, 22 Mar 2024 16:01:23 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
-      <guid>http://blog.luluren.com/post/tech_arch/</guid>
+      <guid>http://www.luluren.com/post/tech_arch/</guid>
       <description>&lt;p&gt;本站使用hugo+jane+自定义域名实现建站。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Hugo 是一个用Go 编写的静态网站生成器。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;jane是其中一个相对洁净的theme&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;网站托管在github&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Jane Theme Preview</title>
-      <link>http://blog.luluren.com/post/jane-theme-preview/</link>
+      <link>http://www.luluren.com/post/jane-theme-preview/</link>
       <pubDate>Tue, 19 Mar 2024 16:01:23 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
-      <guid>http://blog.luluren.com/post/jane-theme-preview/</guid>
+      <guid>http://www.luluren.com/post/jane-theme-preview/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Markdown&lt;/strong&gt; is created by &lt;a href=&#34;http://daringfireball.net/&#34;&gt;Daring Fireball&lt;/a&gt;, the original guideline is &lt;a href=&#34;http://daringfireball.net/projects/markdown/syntax&#34;&gt;here&lt;/a&gt;. Its syntax, however, varies between different parsers or editors.&lt;/p&gt;&#xA;&lt;p&gt;Please note that HTML fragments in markdown source will be recognized but not parsed or rendered. Also, there may be small reformatting on the original markdown source code after saving.&lt;/p&gt;</description>
     </item>
   </channel>

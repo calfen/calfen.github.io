@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on 林中求马</title>
-    <link>http://blog.luluren.com/tags/blog/</link>
+    <link>http://www.luluren.com/tags/blog/</link>
     <description>Recent content in Blog on 林中求马</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <managingEditor>calfen@gmail.com (Calfen)</managingEditor>
     <webMaster>calfen@gmail.com (Calfen)</webMaster>
     <lastBuildDate>Mon, 25 Mar 2024 15:38:44 +0800</lastBuildDate>
-    <atom:link href="http://blog.luluren.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.luluren.com/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>关于我</title>
-      <link>http://blog.luluren.com/about/</link>
+      <link>http://www.luluren.com/about/</link>
       <pubDate>Wed, 20 Mar 2024 14:23:36 +0000</pubDate><author>calfen@gmail.com (Calfen)</author>
-      <guid>http://blog.luluren.com/about/</guid>
+      <guid>http://www.luluren.com/about/</guid>
       <description>欢迎来到这里，我是calfen。 站名 林中求马，源自《诗经》中的一首典型的战争诗《国风·邶风·击鼓》。 爰居爰处,爰丧其马。于以求之,于林之下。</description>
     </item>
   </channel>

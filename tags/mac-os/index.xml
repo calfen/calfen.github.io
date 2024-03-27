@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mac Os on 林中求马</title>
-    <link>http://blog.luluren.com/tags/mac-os/</link>
+    <link>http://www.luluren.com/tags/mac-os/</link>
     <description>Recent content in Mac Os on 林中求马</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <managingEditor>calfen@gmail.com (Calfen)</managingEditor>
     <webMaster>calfen@gmail.com (Calfen)</webMaster>
     <lastBuildDate>Wed, 27 Mar 2024 15:03:49 +0800</lastBuildDate>
-    <atom:link href="http://blog.luluren.com/tags/mac-os/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.luluren.com/tags/mac-os/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python环境</title>
-      <link>http://blog.luluren.com/post/python%E7%8E%AF%E5%A2%83/</link>
+      <link>http://www.luluren.com/post/python%E7%8E%AF%E5%A2%83/</link>
       <pubDate>Mon, 25 Mar 2024 16:57:48 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
-      <guid>http://blog.luluren.com/post/python%E7%8E%AF%E5%A2%83/</guid>
+      <guid>http://www.luluren.com/post/python%E7%8E%AF%E5%A2%83/</guid>
       <description>&lt;p&gt;在python开发中，开发或者运行环境很重要。&lt;/p&gt;&#xA;&lt;p&gt;隆重推出Poetry，一款优秀的python开发环境管理工具。&lt;/p&gt;&#xA;&lt;p&gt;就像某个大神说的那样：&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;h2 id=&#34;井然有序的複雜&#34;&gt;井然有序的複雜&lt;/h2&gt;&#xA;&lt;p&gt;使用 Poetry 來管理專案的套件與虛擬環境，需要一定的學習成本，但帶來的效益還是相當可觀的，尤其在你希望能夠乾淨且安心地移除套件之際，可謂莫它莫屬。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;本文力求通过一篇文章讲解清晰，在macos和linux环境下，如何正确的理解开发环境。&lt;/p&gt;</description>
     </item>
   </channel>

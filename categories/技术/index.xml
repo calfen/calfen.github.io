@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>技术 on 林中求马</title>
-    <link>http://blog.luluren.com/categories/%E6%8A%80%E6%9C%AF/</link>
+    <link>http://www.luluren.com/categories/%E6%8A%80%E6%9C%AF/</link>
     <description>Recent content in 技术 on 林中求马</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <managingEditor>calfen@gmail.com (Calfen)</managingEditor>
     <webMaster>calfen@gmail.com (Calfen)</webMaster>
     <lastBuildDate>Wed, 27 Mar 2024 15:03:49 +0800</lastBuildDate>
-    <atom:link href="http://blog.luluren.com/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.luluren.com/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python环境</title>
-      <link>http://blog.luluren.com/post/python%E7%8E%AF%E5%A2%83/</link>
+      <link>http://www.luluren.com/post/python%E7%8E%AF%E5%A2%83/</link>
       <pubDate>Mon, 25 Mar 2024 16:57:48 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
-      <guid>http://blog.luluren.com/post/python%E7%8E%AF%E5%A2%83/</guid>
+      <guid>http://www.luluren.com/post/python%E7%8E%AF%E5%A2%83/</guid>
       <description>&lt;p&gt;在python开发中，开发或者运行环境很重要。&lt;/p&gt;&#xA;&lt;p&gt;隆重推出Poetry，一款优秀的python开发环境管理工具。&lt;/p&gt;&#xA;&lt;p&gt;就像某个大神说的那样：&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;h2 id=&#34;井然有序的複雜&#34;&gt;井然有序的複雜&lt;/h2&gt;&#xA;&lt;p&gt;使用 Poetry 來管理專案的套件與虛擬環境，需要一定的學習成本，但帶來的效益還是相當可觀的，尤其在你希望能夠乾淨且安心地移除套件之際，可謂莫它莫屬。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;本文力求通过一篇文章讲解清晰，在macos和linux环境下，如何正确的理解开发环境。&lt;/p&gt;</description>
     </item>
     <item>
       <title>网站结构</title>
-      <link>http://blog.luluren.com/post/tech_arch/</link>
+      <link>http://www.luluren.com/post/tech_arch/</link>
       <pubDate>Fri, 22 Mar 2024 16:01:23 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
-      <guid>http://blog.luluren.com/post/tech_arch/</guid>
+      <guid>http://www.luluren.com/post/tech_arch/</guid>
       <description>&lt;p&gt;本站使用hugo+jane+自定义域名实现建站。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Hugo 是一个用Go 编写的静态网站生成器。&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;jane是其中一个相对洁净的theme&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;网站托管在github&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Jane Theme Preview</title>
-      <link>http://blog.luluren.com/post/jane-theme-preview/</link>
+      <link>http://www.luluren.com/post/jane-theme-preview/</link>
       <pubDate>Tue, 19 Mar 2024 16:01:23 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
-      <guid>http://blog.luluren.com/post/jane-theme-preview/</guid>
+      <guid>http://www.luluren.com/post/jane-theme-preview/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Markdown&lt;/strong&gt; is created by &lt;a href=&#34;http://daringfireball.net/&#34;&gt;Daring Fireball&lt;/a&gt;, the original guideline is &lt;a href=&#34;http://daringfireball.net/projects/markdown/syntax&#34;&gt;here&lt;/a&gt;. Its syntax, however, varies between different parsers or editors.&lt;/p&gt;&#xA;&lt;p&gt;Please note that HTML fragments in markdown source will be recognized but not parsed or rendered. Also, there may be small reformatting on the original markdown source code after saving.&lt;/p&gt;</description>
     </item>
   </channel>

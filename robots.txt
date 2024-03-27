@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://blog.luluren.com/sitemap.xml
+Sitemap: http://www.luluren.com/sitemap.xml
