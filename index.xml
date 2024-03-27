@@ -133,7 +133,7 @@ package_name &amp;gt;=1.0, &amp;lt;=2.0
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&#34;项目环境&#34;&gt;项目环境&lt;/h2&gt;
+&lt;h2 id=&#34;poetry&#34;&gt;Poetry&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;虚拟环境+包管理+发布的一体化解决方案.  Poetry管理的是整个python项目&lt;/p&gt;
 &lt;/blockquote&gt;
