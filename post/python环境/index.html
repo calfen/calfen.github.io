@@ -84,7 +84,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://www.luluren.com/post/python%E7%8E%AF%E5%A2%83/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2024-03-25T16:57:48+08:00" />
-<meta property="article:modified_time" content="2024-03-27T17:55:40+08:00" />
+<meta property="article:modified_time" content="2024-03-27T17:59:05+08:00" />
 <meta itemprop="name" content="Python环境">
 <meta itemprop="description" content="在python开发中，开发或者运行环境很重要。
 隆重推出Poetry，一款优秀的python开发环境管理工具。
@@ -94,8 +94,8 @@
 使用 Poetry 來管理專案的套件與虛擬環境，需要一定的學習成本，但帶來的效益還是相當可觀的，尤其在你希望能夠乾淨且安心地移除套件之際，可謂莫它莫屬。
 
 本文力求通过一篇文章讲解清晰，在macos和linux环境下，如何正确的理解开发环境。"><meta itemprop="datePublished" content="2024-03-25T16:57:48+08:00" />
-<meta itemprop="dateModified" content="2024-03-27T17:55:40+08:00" />
-<meta itemprop="wordCount" content="1934">
+<meta itemprop="dateModified" content="2024-03-27T17:59:05+08:00" />
+<meta itemprop="wordCount" content="1942">
 <meta itemprop="keywords" content="python,mac os," /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Python环境"/>
 <meta name="twitter:description" content="在python开发中，开发或者运行环境很重要。
 隆重推出Poetry，一款优秀的python开发环境管理工具。
@@ -699,15 +699,29 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="进入与退出虚拟环境">进入与退出虚拟环境</h3>
-<pre tabindex="0"><code>poetry shell
-Spawning shell within /Users/calfen/git_code/p/.venv
-
-The default interactive shell is now zsh.
-To update your account to use zsh, please run `chsh -s /bin/zsh`.
-For more details, please visit https://support.apple.com/kb/HT208050.
-bash-3.2$ . /Users/calfen/git_code/p/.venv/bin/activate
-(poetry-demo-py3.12) bash-3.2$ exit
-</code></pre><h3 id="peotry流程">peotry流程</h3>
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-1"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-1">1</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-2"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-2">2</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-3"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-3">3</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-4"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-4">4</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-5"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-5">5</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-6"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-6">6</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-7"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-7">7</a>
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-8-8"><a style="outline:none;text-decoration:none;color:inherit" href="#hl-8-8">8</a>
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>poetry shell
+</span></span><span style="display:flex;"><span>Spawning shell within /Users/calfen/git_code/p/.venv
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>The default interactive shell is now zsh.
+</span></span><span style="display:flex;"><span>To update your account to use zsh, please run <span style="color:#4070a0">`</span>chsh -s /bin/zsh<span style="color:#4070a0">`</span>.
+</span></span><span style="display:flex;"><span>For more details, please visit https://support.apple.com/kb/HT208050.
+</span></span><span style="display:flex;"><span>bash-3.2$ . /Users/calfen/git_code/p/.venv/bin/activate
+</span></span><span style="display:flex;"><span><span style="color:#666">(</span>poetry-demo-py3.12<span style="color:#666">)</span> bash-3.2$ <span style="color:#007020">exit</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="peotry流程">peotry流程</h3>
 <p>增加模块</p>
 <div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
