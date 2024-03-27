@@ -8,7 +8,7 @@
     <language>zh-cn</language>
     <managingEditor>calfen@gmail.com (Calfen)</managingEditor>
     <webMaster>calfen@gmail.com (Calfen)</webMaster>
-    <lastBuildDate>Wed, 27 Mar 2024 15:08:31 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 27 Mar 2024 17:17:17 +0800</lastBuildDate>
     <atom:link href="http://www.luluren.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>技术</title>
@@ -29,6 +29,20 @@
       <link>http://www.luluren.com/categories/%E6%95%85%E4%BA%8B/</link>
       <pubDate>Mon, 25 Mar 2024 14:39:56 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
       <guid>http://www.luluren.com/categories/%E6%95%85%E4%BA%8B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>读书</title>
+      <link>http://www.luluren.com/categories/%E8%AF%BB%E4%B9%A6/</link>
+      <pubDate>Sun, 09 Aug 2009 17:09:40 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
+      <guid>http://www.luluren.com/categories/%E8%AF%BB%E4%B9%A6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>随笔</title>
+      <link>http://www.luluren.com/categories/%E9%9A%8F%E7%AC%94/</link>
+      <pubDate>Thu, 27 Mar 2003 16:53:54 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
+      <guid>http://www.luluren.com/categories/%E9%9A%8F%E7%AC%94/</guid>
       <description></description>
     </item>
   </channel>
