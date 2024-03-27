@@ -20,7 +20,14 @@
       <author>calfen@gmail.com (Calfen)</author>
       <guid>http://blog.luluren.com/post/python%E7%8E%AF%E5%A2%83/</guid>
       
-        <description>&lt;p&gt;在python开发中，开发或者运行环境很重要。本文力求通过一篇文章讲解清晰，在macos和linux环境下，如何正确的理解开发环境。&lt;/p&gt;
+        <description>&lt;p&gt;在python开发中，开发或者运行环境很重要。&lt;/p&gt;
+&lt;p&gt;隆重推出Poetry，一款优秀的python开发环境管理工具。&lt;/p&gt;
+&lt;p&gt;就像某个大神说的那样：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h2 id=&#34;井然有序的複雜&#34;&gt;井然有序的複雜&lt;/h2&gt;
+&lt;p&gt;使用 Poetry 來管理專案的套件與虛擬環境，需要一定的學習成本，但帶來的效益還是相當可觀的，尤其在你希望能夠乾淨且安心地移除套件之際，可謂莫它莫屬。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;本文力求通过一篇文章讲解清晰，在macos和linux环境下，如何正确的理解开发环境。&lt;/p&gt;
 &lt;h2 id=&#34;系统级环境&#34;&gt;系统级环境&lt;/h2&gt;
 &lt;p&gt;每个系统，每个版本的python我们只需要装一套，系统默认使用其中一套。拿mac为例，通常通过brew安装&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
