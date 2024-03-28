@@ -8,8 +8,15 @@
     <language>zh-cn</language>
     <managingEditor>calfen@gmail.com (Calfen)</managingEditor>
     <webMaster>calfen@gmail.com (Calfen)</webMaster>
-    <lastBuildDate>Wed, 27 Mar 2024 18:02:34 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 28 Mar 2024 11:08:22 +0800</lastBuildDate>
     <atom:link href="http://www.luluren.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>华通银行开白攻略</title>
+      <link>http://www.luluren.com/post/%E5%8D%8E%E9%80%9A%E9%93%B6%E8%A1%8C%E5%BC%80%E7%99%BD%E6%94%BB%E7%95%A5/</link>
+      <pubDate>Thu, 28 Mar 2024 10:08:28 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
+      <guid>http://www.luluren.com/post/%E5%8D%8E%E9%80%9A%E9%93%B6%E8%A1%8C%E5%BC%80%E7%99%BD%E6%94%BB%E7%95%A5/</guid>
+      <description>&lt;p&gt;这两年存款利率逐年下行，四大国有银行和商业银行利率一年期只有1.45%，大额存款稍微上浮，但鲜有超过2%的。&lt;/p&gt;&#xA;&lt;p&gt;民营银行存款利率在监管下，明面上也不敢太高，一年期挂牌也就是1.9%左右。由于是地方性银行，也不允许异地揽储。为了躲避监管，民营银行，如武汉众邦、福建华通，辽沈银行等大都采用阴阳利率的办法，如果你在“白名单”里，会享受除规定利率外的各种奖励2%-3%不等，这样综合利率就能上升到4%甚至更多。至于异地开户，是通过手机定位限制，可以用虚拟定位来解决。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;风险评估:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;民营银行倒闭的可能性大于国有银行&lt;/li&gt;&#xA;&lt;li&gt;根据&lt;em&gt;存款保险&lt;/em&gt;条例，&lt;em&gt;存款保险&lt;/em&gt;实行限额偿付，最高偿付限额为人民币&lt;em&gt;50万&lt;/em&gt;元。也就是哪怕银行倒闭，50万以内本金都能保证。&lt;/li&gt;&#xA;&lt;li&gt;利率外的额外奖励不受法律保护，在极端情况下，奖励政策可能会改变甚至取消。但银行为了揽储，除非监管顶不住，不会轻易调整。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;本文特就华通银行开白流程及注意事项做说明，自己操作，风险自负。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Python环境</title>
       <link>http://www.luluren.com/post/python%E7%8E%AF%E5%A2%83/</link>
@@ -142,13 +149,6 @@
       <pubDate>Mon, 07 Apr 2008 16:30:11 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
       <guid>http://www.luluren.com/post/%E5%84%BF%E5%AD%90-%E6%AD%A3%E5%90%8D/</guid>
       <description>&lt;p&gt;孩子生下来便要有个称呼，比如我家的小名叫六六，出生的时候六斤六，同时取六六大顺之意。无名的一概以宝宝称呼之。&lt;/p&gt;&#xA;&lt;p&gt;名字名字，名通常都是父母所赐，字可由孩子长大后自行发挥。无奈当今户口本上只有姓名和曾用名，实为大谬。所以只好委屈孩子了，名字只能以父母意见为主。&lt;/p&gt;&#xA;&lt;p&gt;大名也考虑了很久.&lt;/p&gt;&#xA;&lt;p&gt;既然是男孩，上面的名字中，我们夫妻俩比较倾向于周以恒。&lt;/p&gt;&#xA;&lt;p&gt;家父屈指一算，六六五行缺金，故名字需要补金，金字旁或者利刀旁均可。&lt;/p&gt;&#xA;&lt;p&gt;思前想后，遂将&amp;quot;以&amp;quot;改为&amp;quot;钰&amp;quot;，就是王重阳大弟子马钰的那个钰。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Jane Theme Preview</title>
-      <link>http://www.luluren.com/post/jane-theme-preview/</link>
-      <pubDate>Mon, 19 Mar 2007 16:01:23 +0800</pubDate><author>calfen@gmail.com (Calfen)</author>
-      <guid>http://www.luluren.com/post/jane-theme-preview/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Markdown&lt;/strong&gt; is created by &lt;a href=&#34;http://daringfireball.net/&#34;&gt;Daring Fireball&lt;/a&gt;, the original guideline is &lt;a href=&#34;http://daringfireball.net/projects/markdown/syntax&#34;&gt;here&lt;/a&gt;. Its syntax, however, varies between different parsers or editors.&lt;/p&gt;&#xA;&lt;p&gt;Please note that HTML fragments in markdown source will be recognized but not parsed or rendered. Also, there may be small reformatting on the original markdown source code after saving.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
