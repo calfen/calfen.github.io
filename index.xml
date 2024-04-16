@@ -8,10 +8,296 @@
     <language>zh-cn</language>
     <managingEditor>calfen@gmail.com (Calfen)</managingEditor>
     <webMaster>calfen@gmail.com (Calfen)</webMaster>
-    <lastBuildDate>Thu, 28 Mar 2024 10:08:28 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 15 Apr 2024 17:57:16 +0800</lastBuildDate>
     
         <atom:link href="http://www.luluren.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ai作曲</title>
+      <link>http://www.luluren.com/post/ai%E4%BD%9C%E6%9B%B2/</link>
+      <pubDate>Mon, 15 Apr 2024 17:57:16 +0800</pubDate>
+      <author>calfen@gmail.com (Calfen)</author>
+      <guid>http://www.luluren.com/post/ai%E4%BD%9C%E6%9B%B2/</guid>
+      
+        <description>&lt;p&gt;先来个感性的认识，听一下我为微信群：听雨轩  创作的歌曲：&lt;a href=&#34;https://suno.com/song/a3b819da-e6f7-4915-9493-58624a792c75&#34;&gt;听雨&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;suno&#34; src=&#34;https://calfen.oss-cn-shanghai.aliyuncs.com/img/202404161009191.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;AI创作，对于普通人而言，&lt;strong&gt;难度不在如何操作使用AI工具，而在音乐的基础知识&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;在开始制作AI音乐之前，必须先了解几个作曲的基本概念：&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;歌词lyrics&#34;&gt;歌词(lyrics)&lt;/h2&gt;
+&lt;p&gt;大部分歌曲是先有歌词，再谱曲。少数是先有了曲子，再填词。歌词反映的是歌曲的中心思想。歌词携带信息量巨大。如同一首词给音乐人，音乐人首先要理解歌词所要表示的情感，再考虑如何用音乐来表达这种情感，对于AI作曲来说，歌词也是让AI获取您想表达的信息的重要手段。&lt;/p&gt;
+&lt;h3 id=&#34;结构&#34;&gt;结构&lt;/h3&gt;
+&lt;p&gt;歌词的结构一般分为&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Intro（引子）： Intro是一首歌的热身部分，营造氛围，将歌曲带入一种境界。intro通常是纯音乐，加州旅馆前面超长那段就是Intro。&lt;/li&gt;
+&lt;li&gt;Verse（主歌）： Verse是说故事的文字段落，体现了作者想要用语言表达传递的内容&lt;/li&gt;
+&lt;li&gt;Chorus（副歌）：我觉得叫“高潮“更合适些。是歌曲的精华，是主旨，是经常被传唱的部分。&lt;/li&gt;
+&lt;li&gt;Outro（结尾）：收住情绪。有时候是音乐，有时候是反复吟唱，有时候是渐行渐远。目的是余音绕梁，意犹未尽。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;有些歌曲还有&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;pre-chorus（前副歌）：高潮来临之前的过渡。&lt;/li&gt;
+&lt;li&gt;Solo（独奏）：额外的单独乐器的，跳出歌曲外的表演&lt;/li&gt;
+&lt;li&gt;interlude（间奏）：纯音乐，音乐缝合的作用。注意和solo不同。&lt;/li&gt;
+&lt;li&gt;Bridge（连接段）：如果音乐有突变，用来做连接的唱段或者是乐器。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;现在可以随手拿您喜欢的歌，将歌曲分部分拆解，理解一下歌词的结构&lt;/p&gt;
+&lt;h2 id=&#34;音乐风格style-of-music&#34;&gt;音乐风格(Style of Music)&lt;/h2&gt;
+&lt;p&gt;音乐的风格和特点，也就是曲风。是指音乐作品在整体上呈现出的具有代表性的独特面貌。通过歌曲表现出来的相对稳定、内在和深刻，能更为本质地反映出思想观念、审美理想、精神气质。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;TL;ND   以下音乐风格可做速查用，分类各家各家观点不同，仅作参考&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;folk：民谣。一把木吉他走天下。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;conntry music: 曲调简单，节奏平稳,带有叙述性&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Classical Music：古典音乐，启发思考的&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;light music: 情调音乐，结构简单、节奏明快、旋律优美&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Blues：蓝调。情绪低调、忧伤、忧郁。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;rhythm &amp;amp; blues:  布鲁斯，r&amp;amp;b，黑人音乐，宽泛&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Soul 灵魂音乐，节奏布鲁斯的另一种说法&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;disco：跳舞音乐，强劲的4/4拍&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;house： 很多时变成了纯音乐作品，即使有歌唱部分也多数是由跳舞女歌手唱的简短句子&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;reggae：雷鬼。非洲、拉丁美洲节奏和类似非洲流行的那种呼应式的歌唱法，与强劲的、有推动力的摇滚乐音响相结合。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;BOSSA NOVA： 巴西音乐，每两个 BAR的第1、4、7、11、14拍为重拍&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;pop：流行音乐&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;classical pop：经典流行&lt;/li&gt;
+&lt;li&gt;Synth Pop： 电子音乐合成&lt;/li&gt;
+&lt;li&gt;dream-pop：有喘息声，梦幻&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;摇滚乐：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;碾核，主唱低鸣深沉的狂吼咆哮、电吉他超麻辣的音色再加上极快速的反复节拍及密集鼓点，构成一种几无旋律的重金属乐风，乐曲的长度都很短，从两秒钟到三分钟不等。“碾核”为一种极为冷僻的重金属乐风，大多数“死亡金属”乐队都采用此一乐风。&lt;/li&gt;
+&lt;li&gt;Grunge，垃圾摇滚，另类摇滚的同义词&lt;/li&gt;
+&lt;li&gt;punk rock，蔑视一切传统，蔑视、宗教、教育机构等等，却是用一种更加颓废的方式，极端无主义的言行表现出来。唱词淫狠、粗鲁；在舞台上尖叫、跺脚、斗殴；音乐上与硬摇滚比较接近，音响极大，音色浓烈浑厚。&lt;/li&gt;
+&lt;li&gt;post rock： 实验性、前卫摇滚乐，多带催眠感觉&lt;/li&gt;
+&lt;li&gt;Hard Rock，硬核摇滚，歌词直言不讳粗鄙不堪，音乐如同噪音一般&lt;/li&gt;
+&lt;li&gt;progressive rock，艺术摇滚或者进步摇滚摇滚里加入古典音乐&lt;/li&gt;
+&lt;li&gt;britpop： 英式摇滚&lt;/li&gt;
+&lt;li&gt;SOFT ROCK： 慢摇&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;金属乐：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;黑金属。 邪恶、异教崇拜以及撒旦思想为其主要诉求。歌曲中营造出一股诡异又吓人的恐怖气氛。&lt;/li&gt;
+&lt;li&gt;死亡金属。 吉他快速的反复，几无旋律的和弦，速击狂踩的双大鼓，主唱咬牙不清的低吟狂吼，歌词以死亡仇恨为主题，充满了尸体、内脏、肢解、分尸、奸尸、恋尸癖、食尸、虐待等变态字眼。&lt;/li&gt;
+&lt;li&gt;毁灭金属。节奏和速度都很慢，非常得慢。较不激烈也不大具有攻击性，但仍是相当拥有重量感的音乐。通常具有非常干净的音乐和歌声，但有时也有粗暴野蛮的声音出现。&lt;/li&gt;
+&lt;li&gt;Glam Metal 。 华丽金属，主流金属的分支，重金属乐队的舞台表演方式或外在形象以夸张的浓妆艳抹或俊俏的外型来吸引乐迷&lt;/li&gt;
+&lt;li&gt;重金属， 须具备狂吼咆哮或高亢激昂的嗓音、电吉他大量失真的音色、再以密集快速的鼓点和低沉有力的贝司填满整个听觉的背景空间，而构成一种含有高爆发力，快速度，重量感及破坏性等元素的改良式摇滚乐。代表乐队：Guns N&amp;rsquo; Roses&lt;/li&gt;
+&lt;li&gt;工业金属： 大量冰冷的电脑采样音效，穿插以机械或金属器具的撞击声代替传统打击乐器&lt;/li&gt;
+&lt;li&gt;Neo-Classica 新典金属，在重金属乐中加入大量古典音乐元素&lt;/li&gt;
+&lt;li&gt;Pop Metal 流行金属在重金属摇滚中加入流行音乐之元素&lt;/li&gt;
+&lt;li&gt;前卫金属，歌曲中采用大量复杂华丽的编曲，或在歌词中传达出某些前进思想供听者一个想象思考的空间。&lt;/li&gt;
+&lt;li&gt;速度金属，音乐较具旋律性，主唱歌词咬字较清楚，吉他间奏富旋律性且快速而流畅&lt;/li&gt;
+&lt;li&gt;鞭击金属： 具有相当快速的反复节拍（riff），电吉他粗麻的音色刷出剽悍的和弦，极具破坏力及压迫感的速踩双大鼓，主唱粗暴狂吼式的唱腔配合电吉他快速的节奏急速地唱出几无旋律的曲调。&lt;/li&gt;
+&lt;li&gt;Symphonic Metal：交响金属往往以 歌剧女高音作为主音，当然有时亦会采用低沉的男声作主音。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;jungle： 街拍复杂，比较快的节奏音乐&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;drum&amp;amp;apos： 节奏很快的各种鼓&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;big-beat：又重又碎，又有点快的节拍&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;brit-hop： 鼓声加重，配合些许电吉他、bass，有摇滚乐的味道&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;breakbeat： 破碎的节拍呈现，像是切分拍。如在两拍中加入小碎鼓&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;hip pop：一种文化，包括音乐，街舞，涂鸦（Graffti），刺青&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;D.J：Disc Jockey， 打碟，用唱机玩节奏&lt;/li&gt;
+&lt;li&gt;M.C:&amp;lsquo;Micphone Controller 嘴里不停念叨琐事，发泄情绪那位。&lt;/li&gt;
+&lt;li&gt;B-boy：Breaking Poping Locking，劲舞，街舞，霹雳舞。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;acappella：阿卡贝拉，纯人声多重合唱&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;instrumental： 纯音乐&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;world music： 指发展中地区或落后地区的传统音乐&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;new age：宁静、安逸、闲息的音乐，纯音乐作品占的比重较多，中产阶级音乐。比如enya&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;trip-hop：我的理解是吸大麻后的慢摇。属跳舞音乐类，但其迷幻迷糊特色已令它同一般跳舞音乐所有的明确节拍特色相去很远。代表人物：trip-hop中公认的铁三角：portishead, tricky, massive attack. mandalay moloko coldcut&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;音乐基础知识具备，在开始实操阶段之前，先了解AI制作音乐的流程及概念&lt;/p&gt;
+&lt;h2 id=&#34;ai音乐中的概念&#34;&gt;AI音乐中的概念&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;全自动制作：将你的所有的想法用文字描述出来，AI自动生成词曲&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;定制模式：自己输入歌词，歌词中可以加入段落及描述，自己选择音乐风格&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;歌词格式：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;歌词正文：文字&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;段落及风格: [附加信息] 用方括号引起来的文字。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;以下为格式示例&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-1&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-1&#34;&gt; 1&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-2&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-2&#34;&gt; 2&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-3&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-3&#34;&gt; 3&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-4&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-4&#34;&gt; 4&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-5&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-5&#34;&gt; 5&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-6&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-6&#34;&gt; 6&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-7&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-7&#34;&gt; 7&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-8&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-8&#34;&gt; 8&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-9&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-9&#34;&gt; 9&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-10&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-10&#34;&gt;10&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-11&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-11&#34;&gt;11&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-12&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-12&#34;&gt;12&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-13&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-13&#34;&gt;13&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-14&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-14&#34;&gt;14&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-15&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-15&#34;&gt;15&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-16&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-16&#34;&gt;16&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-17&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-17&#34;&gt;17&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-18&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-18&#34;&gt;18&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-19&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-19&#34;&gt;19&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-20&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-20&#34;&gt;20&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-21&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-21&#34;&gt;21&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-22&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-22&#34;&gt;22&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-23&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-23&#34;&gt;23&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-24&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-24&#34;&gt;24&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-25&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-25&#34;&gt;25&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-26&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-26&#34;&gt;26&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-27&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-27&#34;&gt;27&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-28&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-28&#34;&gt;28&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-29&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-29&#34;&gt;29&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-30&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-30&#34;&gt;30&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-31&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-31&#34;&gt;31&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-32&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-32&#34;&gt;32&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-33&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-33&#34;&gt;33&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-34&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-34&#34;&gt;34&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-35&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-35&#34;&gt;35&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-36&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-36&#34;&gt;36&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-37&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-37&#34;&gt;37&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-38&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-38&#34;&gt;38&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-39&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-39&#34;&gt;39&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-40&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-40&#34;&gt;40&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-41&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-41&#34;&gt;41&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-42&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-42&#34;&gt;42&lt;/a&gt;
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34; id=&#34;hl-0-43&#34;&gt;&lt;a style=&#34;outline:none;text-decoration:none;color:inherit&#34; href=&#34;#hl-0-43&#34;&gt;43&lt;/a&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-tex&#34; data-lang=&#34;tex&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[guitar solo Intro]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[Verse 1]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;一望东方明珠光，
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;心随浦江水漫长。
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;金茂入云端，
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;红日出东海，
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;游子奋斗为希望。
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[Verse 2]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;高楼耸立在身旁，
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;思绪飘回那牌坊。
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;羊肉汤香四溢，
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;家的味道总悠长。
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[piano solo]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[Raped Pre-Chorus]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;少年梦远方，
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;老来思故乡。
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[Rapped Chorus]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;少年听雨歌楼上，
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;红烛昏罗帐。
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;壮年听雨客舟中，
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;江阔云低、
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;断雁叫西风。
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;而今听雨僧庐下，
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;鬓已星星也。
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;悲欢离合总无情，
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;一任阶前点滴到天明。
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[Verse 3]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;桑田沧海多变数，
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;人生坎坷如坦途。
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;世间百态皆尝试，
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;唯愿老来心如初。
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[Pre-Chorus 2]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;少年梦远方，
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;老来思故乡。
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[guitar solo Outro]
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;试听 通常AI会先帮你生成一段（长度可能从半分钟到两分钟不等）音乐，而且一次生成两个，让你先听一听是否符合你自己的要求。如果不合您意，可以重新调整要求，再次生成，直到满意为止。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;扩展，或者叫继续创作。您可以选择之前试听的一个作品继续创作，直至完成歌曲。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;限制：很多网站有制作限制，比如每天只能制作6次或者给多少积点，而一些操作消耗积点。AI创作消耗计算资源，也不是开粥厂敞开了喝的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;歌曲生成的是否符合您的设想，&lt;strong&gt;99%靠自己的音乐知识，1%是对AI制作流程的理解&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;学习了以上概念，剩下的就是英语阅读能力及按钮在哪儿了。&lt;/p&gt;
+&lt;p&gt;就目前我自己试用来说，歌词识别能力较差，中文处理还是不如英文。建议描述能用英文就用英文。&lt;/p&gt;
+&lt;p&gt;中文歌词一会儿普通话一会广东话一会日本话&amp;#x1f622;&lt;/p&gt;
+&lt;h2 id=&#34;sunohttpssunocom&#34;&gt;&lt;a href=&#34;https://suno.com/&#34;&gt;Suno&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;suno1&#34; src=&#34;https://calfen.oss-cn-shanghai.aliyuncs.com/img/202404161403506.jpg&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;udiohttpswwwudiocom&#34;&gt;&lt;a href=&#34;https://www.udio.com&#34;&gt;UDIO&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;udio我觉得比suno做的更人性化，特别在extend时候，建议用udio不要一次把歌词全部输入，而是1-3小节输入一次，一次差不多制作30秒。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;udio&#34; src=&#34;https://calfen.oss-cn-shanghai.aliyuncs.com/img/202404161406660.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;udio2&#34; src=&#34;https://calfen.oss-cn-shanghai.aliyuncs.com/img/202404161411443.jpg&#34;&gt;&lt;/p&gt;</description>
+      
+    </item>
     
     <item>
       <title>华通银行开白攻略</title>
@@ -132,7 +418,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python@3.8
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python@3.9
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#60a0b0;font-style:italic&#34;&gt;# 查看本地安装过的版本&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;% brew search python|grep python@
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;% brew list|grep python@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python@3.10
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python@3.11
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python@3.12
@@ -1668,29 +1954,6 @@ $$&lt;/p&gt;
 &lt;p&gt;父亲接下来就想，能忘什么呢？怎么也想不起来，这时候哥哥进来了，说爷爷也托梦给他，说老家屋门的钥匙别忘了带。&lt;/p&gt;
 &lt;p&gt;父亲很是吃惊。钥匙有两把，一把在我们家，一把几年前爷爷回家的时候丢掉了。而这些事情，我哥根本就不知道。&lt;/p&gt;
 &lt;p&gt;我也很诧异，可问过哥哥和妹妹，他们都说是真的。难道他们联合起来骗我？&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>旅途历险二三事  春运</title>
-      <link>http://www.luluren.com/post/%E6%97%85%E9%80%94%E5%8E%86%E9%99%A9%E4%BA%8C%E4%B8%89%E4%BA%8B--%E6%98%A5%E8%BF%90/</link>
-      <pubDate>Wed, 29 Mar 2006 11:55:39 +0800</pubDate>
-      <author>calfen@gmail.com (Calfen)</author>
-      <guid>http://www.luluren.com/post/%E6%97%85%E9%80%94%E5%8E%86%E9%99%A9%E4%BA%8C%E4%B8%89%E4%BA%8B--%E6%98%A5%E8%BF%90/</guid>
-      
-        <description>&lt;p&gt;家在外地，还没孩子的朋友，每年春节总是要回家。外面生活打拼不容易，歌里唱得好：&amp;ldquo;离家的孩子流浪在外边，没有那好衣裳，也没有好烟。&amp;ldquo;回家是为了安慰父母，为了寻找一份依赖的感觉，也是为了能穿上好衣服，抽上好烟。&lt;/p&gt;
-&lt;p&gt;对春运的感觉是从大学开始的，那时候思想观念还没有如今这么开放，守土观念很强，出来为了生计打工的不多。所以流动人口比现在少一些，可车子也少，人和车的比例则高过现在。春运高峰时候可以用恐怖来形容。我基本是放假不愿回家，假期结束不肯上学，想起来要挤火车则两股战战，几欲先走。到现在也心有余悸。就像大学时候害怕考试一样，做梦都能吓醒。&lt;/p&gt;
-&lt;p&gt;从学校到家里还好，毕竟有学校统一订票，有座位，有同学，一路聊天过去，不觉得太累，回学校就没这么容易了。我所乘坐的火车没有一趟是始发车，订有座位的票的想法化作泡影。就我当时消费观念和家庭条件来说，卧铺是不在考虑范围的（其实有钱也买不到）。我第一次进入卧铺车厢是工作几年以后的事情了，直到那时候，我才得以将想象中卧铺的形象和现实对应起来。才知道卧铺的号码排列和硬座是不同的，才知道卧铺晚上是熄灯的，才知道卧铺不只是有铺，还有座位。&lt;/p&gt;
-&lt;p&gt;那时也很少有空调车，幸亏没有空调车，否则票价会超出我的承受能力。16个小时的火车，17块5毛钱的价格，还算合理。黄牛是早就有了的，多花一倍的价格就能轻松买到票。可这与学生无关，学生有的是时间精力来自己节省这笔巨大开支。自己动手，丰衣足食。，排队一排就是半晌。在这里特别强调，独行侠的理念是不可取的，约上同一城市上学的认识或者不认识的老乡一起苦熬才是正道。一是行李有人看，不用背着包袱排队，二来排队的时候也可以轮班上厕所。&lt;/p&gt;
-&lt;p&gt;买车票是轻松和惬意的，吹牛打牌，只需一点点往前挪就行。排队的成就感不在于还有多少人才轮到你，而在于看到身后越来越长的队伍时的满足感。除了买的那一刻，听到售票员说&amp;quot;卖完了&amp;rdquo;，要不停的报出其他的车次，需要机敏以外，排队其实和公务员坐办公室没什么区别。&lt;/p&gt;
-&lt;p&gt;最火爆的和考验人的地方是上车，这是乘车的高潮部分，需要的是爆发力。拿到车票代表你拥有了上这趟车的权利，可实现这个权利你还需要付出艰辛的劳动。从车下到车厢只有5米不到，就这5米，最多曾经耗费了我半个钟头。除了体力，还需要冲锋的精神，故作姿态或者保持风度无异自寻死路。记得上班后自认为是有身份人士而斗志大减，每次我嗷嗷叫向冲击火车，都被更加英勇的战士们挤在后面，有时候还起到人梯的作用，别人一个个从我肩膀上车，只留给我一个个由于里面空间饱和而留在车窗外的屁股。结果从下午6点到凌晨1点，我还是留在站台上。终于在凌晨时候，又一列可以到达目的地的火车徐徐进站。站台上昏昏欲睡的群众都象打了兴奋剂的公鸡一样蹦起来冲向火车。火车上门口都站满了人。可任凭群众敲打漫骂，列车员死活不肯开门，愤怒的群众精力逐渐退去，大部分转向其他车门或者窗户发动再次攻击，只剩下孤独无望站在寒风中瑟瑟发抖的我。我望着逐渐散去的人们，目光充满了哀伤和无奈。人在绝望的时候总有奇迹发生，人在无路可走的时候总有贵人相助。此时车门突然开了，列车员一把把我拉上车，旋即关上车门。所以没有冲锋的能力，那就装得可怜一些，等着别人的怜悯吧。当然，纯粹可怜，没有毅力坚持到最后，或者长得不帅，机会也不会降临到你的头上。从等候到上车，算起来已经过去7个小时了，
-我所持车票的那趟列车，想必已经夜行八百了吧。一切情况都表明跟在队伍后面晃动自己手中的票子高呼&amp;quot;我有票&amp;quot;等于白痴，冲上去和各色人等比拼体力才是上策。如果携带行李或者被哪个可恶的女生缠上一起走，还必须还要发挥团体作战的能力，善于组织。先找个最壮的人上车，然后是塞行李，然后把女人前拉后托得仍上车，最后是另一个身强力壮的殿后。物质损耗是很正常的，如果背包的带子断了或者苹果变成了苹果泥，这很正常，骂几句也就算了，不要悲伤，连包都找不到的人多的是。&lt;/p&gt;
-&lt;p&gt;上车就是胜利，就代表你已经能到达目的地了，接下来比拼的是耐力。正常情况16个小时，拖到20也是常有的事。碰到前方车站火车出轨或者两车相撞算你也撞了大运，一停就是五六个小时，一动不动。坐在位子上的人还好，站着的可就惨了，虽然可以时而左脚，时而右脚，时而侧靠，时而附扒，变换各种姿势以抵抗疲劳，但疲劳还是不时蚕食你的身体，让你全身酸痛。在铁道线拼搏了几年，成为一名&amp;quot;老铁路&amp;quot;以后，我已经学会如何照顾自己了。社会是个大熔炉，可以让你学会很多东西。携带报纸或者塑料袋占据座位下面的空间，就是我跟一位农民大哥学的。虽然脚会被走路的人踩来踩去，虽然连翻身都很困难，虽然平趟着脸几乎触及座位，虽然座位的上方就是别人的屁股或者臭脚，虽然地上浊水四流，垃圾遍地。可我还是觉得躺在底下特别的舒服－－比睡在家里床上还舒服。有人说那儿是地狱，是猪圈，不是人呆的地方，失去了人的尊严。我却觉得是天堂－－花硬座的钱享受了卧铺的条件，哪还有那么多挑剔。这谈不上尊严，只是脸面。失去尊严是自己内心觉得自由受到压制，而脸面则完全是外界的看法。我内心觉得无比自由畅快，至于脸面，谁认识谁呢！&lt;/p&gt;
-&lt;p&gt;我碰到最恐怖的事件发生在安徽境内，大概在符离集车站。那个年代出来打工的农民兄弟比较少，敢出来的都是有闯劲的，有开拓精神的，最有活力的，最优秀的精英。彪駻的准工人兄弟们用铁扁担翘开窗户，车内企图关窗捍卫自己当前取得利益的被当场打倒，然后人象狂潮一样从这个小窗涌进。千里之堤，溃于蚁穴。堤那边的压力是如此的大，从窗口进来的人是如此的多，以致堆到了车顶，后来的人都要踩着前人往上爬。包袱和人混杂在一起，直到整个车厢塞满了人，外面的人再也进不进来。两个小时后，火车载着慢车厢的人缓缓开动。装沙子的口袋，晃动一下，就会折下去不少，我们车厢也逐渐露出了顶部，继而露出了行李架。那年我已经大三了，开始奢靡享受，竟然舍得在徐州花三块钱买了位子。骄奢淫逸可耻，一点都不假，老天是公平的，总会惩罚某些不该奢华的败家子儿，上天把立刻把我的舒适变成了痛苦。首先茶几被踩断，木板压住了我的腿，费了好大劲才得以逃脱。最不幸的是在他们拼命往里爬的时候，我只顾全力保护自己的眼镜不被挤扁，却没有为自己打造一个良好的环境，当我意识到情况不对时已经太晚。身上压了三四个人，两条腿被卡的死死的，根本挪不动。我掐了大腿一把，竟然毫无知觉。直到南京，才松闲了一些，坐在我怀里的胖女人终于能双脚落地了。&lt;/p&gt;
-&lt;p&gt;可能再过几个小时，两腿的血液还不能正常流动的话，肌肉会坏死，那我可就入了残联了，想起这个，我总有些后怕。&lt;/p&gt;
-&lt;p&gt;十几个小时火车，在春运中简直不值一提。同学里有坐40多小时到哈尔滨下来还要再乘18个小时火车的，也有大理的，伊犁的。他们的故事更丰富。有同学亲眼见过有人乘了50多个小时火车，突然发疯，满车厢乱跑要跳车。&lt;/p&gt;
-&lt;p&gt;群众智慧是无穷的，为了解决如厕问题。车站上车后每人发一个塑料袋，掏出来家伙当众解决，然后将塑料袋丢到窗外的。&lt;/p&gt;
-&lt;p&gt;春运的环境下，生存才是第一位的。&lt;/p&gt;</description>
       
     </item>
     
