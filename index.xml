@@ -8,10 +8,131 @@
     <language>zh-cn</language>
     <managingEditor>calfen@gmail.com (Calfen)</managingEditor>
     <webMaster>calfen@gmail.com (Calfen)</webMaster>
-    <lastBuildDate>Mon, 15 Apr 2024 17:57:16 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 17 Apr 2024 10:55:31 +0800</lastBuildDate>
     
         <atom:link href="http://www.luluren.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>我的gtd</title>
+      <link>http://www.luluren.com/post/%E6%88%91%E7%9A%84gtd/</link>
+      <pubDate>Wed, 17 Apr 2024 10:55:31 +0800</pubDate>
+      <author>calfen@gmail.com (Calfen)</author>
+      <guid>http://www.luluren.com/post/%E6%88%91%E7%9A%84gtd/</guid>
+      
+        <description>&lt;p&gt;GTD（Getting Things Done）顾名思义，“让事情做完”。这可不是一件容易的事情。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;高城解释着，“最重要的是先做好手上的事情，我这两天刚接触一个人，错误之皇，每做对一件小事就被他像救命稻草一样抓着，有一天我一看，好，他抱着的已经是让我仰望的参天大树。他教会了我这些。”         &amp;ndash;《士兵突击》&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#x1f4a1;和坚持相比，技巧只是皮毛&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;方法论比工具更重要，下面从方法和实操两个维度，来讲一下我的GTD实践&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#x262f;&amp;#xfe0f;形上谓道兮， 形下谓器。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;方法&#34;&gt;方法&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;收集&#34;&gt;收集。&lt;/h3&gt;
+&lt;p&gt;收集一切你觉得应该稍后再处理的信息。一个有价值的念头、老妈安排的事情、亲友的聚会邀请。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#x1f4a1;&lt;strong&gt;把所有琐事移出大脑&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;此时，你的大脑其实已经做了&lt;em&gt;第一次分类&lt;/em&gt;，不值得或者跟你没关系的事情就不要记录，避免造成信息过载。&lt;/p&gt;
+&lt;p&gt;马上就可以做掉的事情也不需要记录。收集整理信息是需要成本的。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;二分钟法则&lt;/strong&gt;: 任何一件可以马上在二分钟内完成的事情，那么就必须得现在马上完成。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;整理&#34;&gt;整理&lt;/h3&gt;
+&lt;p&gt;对收集到的任务分类管理&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;四象限法则&lt;/strong&gt;：以重要度为纵坐标和紧急度为横坐标，分别为重要且紧急、重要不紧急、紧急不重要、不重要不紧急。 &lt;strong&gt;要将精力和时间放在那些重要但不紧急的事情上&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;对任务做&lt;em&gt;第二次分类&lt;/em&gt;。最最难的一步。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;计划&#34;&gt;计划&lt;/h3&gt;
+&lt;p&gt;计划主要是将不能短时间内完成的任务做拆解，主要拆解重要的事情。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;4D原则&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Do it Now：如果你总是有紧急又重要的事情要做，说明你在时间管理上存在问题，设法减少它。&lt;/li&gt;
+&lt;li&gt;Delay it：计划，将重要但不紧急的事情安排进日程。&lt;/li&gt;
+&lt;li&gt;Delegate it：对于紧急但不重要的事情的处理原则是能委托就让别人去做。&lt;/li&gt;
+&lt;li&gt;Don&amp;rsquo;t do it：不重要也不紧急的事情尽量少做。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;执行&#34;&gt;执行&lt;/h3&gt;
+&lt;p&gt;执行任务的时候，所有条件都已经具备，否则回到第三步“计划”&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;番茄工作法 用一个定时器来分割出一个一般为25分钟的工作时间和5分钟的休息时间.每四个番茄，休息15-30分&lt;/p&gt;
+&lt;p&gt;一旦启动，番茄钟不可分割，不可暂停。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;回顾&#34;&gt;回顾&lt;/h3&gt;
+&lt;p&gt;每天为周期，快速浏览一下任务列表。看看哪些重要但没有时间安排的事情（比如锻炼半小时）是否做了，如果没有做，必须脑子记住，那不是工具能帮你解决的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;工具&#34;&gt;工具&lt;/h2&gt;
+&lt;p&gt;手机，没错，一个手机就可以完成所有的时间管理。如果您有Iphone+Ipad+mac三件套，则更加完美&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#x262f;&amp;#xfe0f;大道至简&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;不要用复杂的软件来管理时间，不要妄图什么All in one产品。Evernote，Notion，One Note，omniPlan我都用过，最终回归了苹果自带工具。&lt;/p&gt;
+&lt;p&gt;下文介绍的这些工具都能实现多设备共享，完全可以在iphone上收集，在mac上整理，在iphone上标注。&lt;/p&gt;
+&lt;h3 id=&#34;提醒事项task&#34;&gt;提醒事项（task）：&lt;/h3&gt;
+&lt;p&gt;苹果提醒是一个非常好用的task工具&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;通过siri做到快速收集：通比如说：“提醒我晚上8点（时间），给妈妈打电话问好”   “到家后（地点）把除胶剂放在车上”  “明天中午（时间）到公司后（地点）把车上的虫子尸体擦掉。 到设定的时间或者地点，手机就会提示你该行动了。&lt;/p&gt;
+&lt;p&gt;处理简单而琐碎的事情，简直就是神器。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;每个人都可以利用自己的理解，按自己熟悉的方式使用列表、标签这些概念，比如，您可以把优先级设置成列表，按照优先级分类。甚至，您可以把每件事情作为一个列表，分类和优先级都用标签来实现。你喜欢就好。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;通过列表（分类）整理任务&lt;/p&gt;
+&lt;p&gt;苹果的列表我用作分类。一个列表里可以有无数个任务。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;标准列表：自定义的任务的大类&lt;/li&gt;
+&lt;li&gt;日常采购列表：一个专门用于采购的任务列表，苹果会替你智能归类，比如大米归入，我觉得用不用也行&lt;/li&gt;
+&lt;li&gt;智能列表：其实是一个设定各种条件的任务过滤器。比较有用的是：最近三天的任务，用于查找&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;通过标签（tag）给任务分优先级&lt;/p&gt;
+&lt;p&gt;先创建四个标签，代表四个任务象限。在整理任务的时候，可以打上不同的标签来标记任务，标签可以输入#快速操作。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;任务整理与拆解：&lt;/p&gt;
+&lt;p&gt;任务之间有关联，拆解任务后，可以采用拖动或者缩进的方式来进行任务的拆解。比如接到了年度考核的任务，您可能整理成这样&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#34;task&#34; src=&#34;https://calfen.oss-cn-shanghai.aliyuncs.com/img/202404171457215.jpg&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;通过设定任务时间来计划任务&lt;/li&gt;
+&lt;li&gt;利用check box标记是否完成&lt;/li&gt;
+&lt;li&gt;利用共享列表实现协同，比如，把采购清单共享给家庭其它成员，谁方便谁采购。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;日历&#34;&gt;日历&lt;/h2&gt;
+&lt;p&gt;如果说提醒列表偏重的是任务，日历偏重的则是时间。到了时间就得干，过了时间也没得补偿。日历更多的是你不能随意左右进度的事情。比如，火车时刻表，一场公司中层会议，某位朋友的生日。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在siri看来，“安排”会被理解成“日历”，而“提醒”会理解成“任务”，会议类的，都在日历里&lt;/li&gt;
+&lt;li&gt;日历上应该只记录一定会发生的事情。琐事更适合用“提醒”&lt;/li&gt;
+&lt;li&gt;苹果日历的好处是可以提醒联系人的生日。&lt;/li&gt;
+&lt;li&gt;日历可以从时间维度观察任务的饱和度。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;#x1f4a1; 工作会自动占满一个人所有可用的时间。如果一个人给自己安排了充裕的时间去完成一项工作，他就会放慢节奏或者增加其他项目以便用掉所有的时间。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+      
+    </item>
     
     <item>
       <title>Ai作曲</title>
@@ -1938,25 +2059,6 @@ $$&lt;/p&gt;
 &lt;p&gt;外公外婆去世的早，母亲是跟着舅舅和妗子长大的。在那时候的农村，舅舅还是让母亲读了书，外出工作，直至嫁人。结婚的时候母亲没有任何的嫁妆，只打了个小包袱。舅舅说：别人陪嫁都多，我们都供了你读书，有个工作就比给你个小牛犊都好，你别不高兴啊。现在我妈经常说起这些事情来教育我们，说万贯家财不如一技在身。&lt;/p&gt;
 &lt;p&gt;蓦然回首，往事竟然历历在目，如眼亲见。而转眼这些长辈们都已至耄耋之年。多陪陪这些长辈吧，听他们讲一些过去的故事，尽自己的一份孝心。&lt;/p&gt;
 &lt;p&gt;愿天下老年人幸福安康～&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>怪力乱神  托梦</title>
-      <link>http://www.luluren.com/post/%E6%80%AA%E5%8A%9B%E4%B9%B1%E7%A5%9E--%E6%89%98%E6%A2%A6/</link>
-      <pubDate>Sun, 25 Mar 2007 11:23:57 +0800</pubDate>
-      <author>calfen@gmail.com (Calfen)</author>
-      <guid>http://www.luluren.com/post/%E6%80%AA%E5%8A%9B%E4%B9%B1%E7%A5%9E--%E6%89%98%E6%A2%A6/</guid>
-      
-        <description>&lt;p&gt;爷爷到底没有能活到二十一世纪，他老人家光绪年间生人，在五十年国庆前去世，还算长寿。&lt;/p&gt;
-&lt;p&gt;俗话说入土为安，土葬虽然违反了国家政策，毕竟这是老人家的心愿。加上他生前比较要朋友，十里八乡为人还不错，也不能一声不吭的走了，操办一下，也算给老人家一生做上个句号。只是由于我们离老家比较远，所以暂时找了块墓地，也没敢声张，夜里磕头下葬的。按老规矩三年出老殡，到时候把他的棺材再起回老家去。&lt;/p&gt;
-&lt;p&gt;爷爷活着的时候我就听他说过：这儿不是我们的家，我们还是要回家的。&lt;/p&gt;
-&lt;p&gt;爷爷去世以后，有一天父亲跟我说，爷爷来找过他，说在这儿不好，邻居也老欺负他是外地人。我也就笑笑，认为父亲是为了想迁坟得到大家的支持，所以找些迷信的理由。&lt;/p&gt;
-&lt;p&gt;快到三周年的时候，父亲忙着准备起灵柩，事情很多，找灵车，请乡党，很是繁琐。&lt;/p&gt;
-&lt;p&gt;一天早上，妹妹来了，说昨天晚上做了个梦，梦见我爷爷嘱咐她，回家的时候不要忘记带东西。她起来然后去上班，梦的内容也就忘了，开助动车走在马路上的时候，突然车头就失去了控制，左右摇摆，做蛇行状前进，吓得她赶紧停住了。这时候才想起来爷爷的梦，大概是爷爷在惩罚她没把事情放在心上吧。&lt;/p&gt;
-&lt;p&gt;父亲接下来就想，能忘什么呢？怎么也想不起来，这时候哥哥进来了，说爷爷也托梦给他，说老家屋门的钥匙别忘了带。&lt;/p&gt;
-&lt;p&gt;父亲很是吃惊。钥匙有两把，一把在我们家，一把几年前爷爷回家的时候丢掉了。而这些事情，我哥根本就不知道。&lt;/p&gt;
-&lt;p&gt;我也很诧异，可问过哥哥和妹妹，他们都说是真的。难道他们联合起来骗我？&lt;/p&gt;</description>
       
     </item>
     
