@@ -20,10 +20,42 @@
       <author>calfen@gmail.com (Calfen)</author>
       <guid>http://www.luluren.com/post/%E6%88%91%E7%9A%84gtd/</guid>
       
-        <description>&lt;p&gt;GTD（Getting Things Done）顾名思义，“让事情做完”。这可不是一件容易的事情。&lt;/p&gt;
+        <description>&lt;p&gt;GTD（Getting Things Done）顾名思义，“让事情做完”。这可不是一件容易的事情。
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
 &lt;blockquote&gt;
-&lt;p&gt;高城解释着，“最重要的是先做好手上的事情，我这两天刚接触一个人，错误之皇，每做对一件小事就被他像救命稻草一样抓着，有一天我一看，好，他抱着的已经是让我仰望的参天大树。他教会了我这些。”         &amp;ndash;《士兵突击》&lt;/p&gt;
+  &lt;p&gt;高城解释着，“最重要的是先做好手上的事情，我这两天刚接触一个人，错误之皇，每做对一件小事就被他像救命稻草一样抓着，有一天我一看，好，他抱着的已经是让我仰望的参天大树。他教会了我这些。”&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;《士兵突击》&lt;/strong&gt;
+    
+      
+        
+      
+    
+  &lt;/footer&gt;
 &lt;/blockquote&gt;
+&lt;/p&gt;
 &lt;p&gt;&amp;#x261d;&amp;#xfe0f; &lt;strong&gt;和坚持相比，技巧只是皮毛&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;工具论&#34;&gt;工具论&lt;/h2&gt;
 &lt;ul&gt;
@@ -36,7 +68,6 @@
 &lt;li&gt;
 &lt;h3 id=&#34;收集&#34;&gt;收集。&lt;/h3&gt;
 &lt;p&gt;收集一切你觉得应该稍后再处理的信息。一个有价值的念头、老妈安排的事情、亲友的聚会邀请。&lt;/p&gt;
-&lt;p&gt;&amp;#x1f914; &lt;strong&gt;把所有琐事移出大脑&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;此时，你的大脑其实已经做了&lt;em&gt;第一次分类&lt;/em&gt;，不值得或者跟你没关系的事情就不要记录，避免造成信息过载。&lt;/p&gt;
 &lt;p&gt;马上就可以做掉的事情也不需要记录。收集整理信息是需要成本的。&lt;/p&gt;
 &lt;blockquote&gt;
@@ -198,10 +229,12 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;音乐风格style-of-music&#34;&gt;音乐风格(Style of Music)&lt;/h2&gt;
 &lt;p&gt;音乐的风格和特点，也就是曲风。是指音乐作品在整体上呈现出的具有代表性的独特面貌。通过歌曲表现出来的相对稳定、内在和深刻，能更为本质地反映出思想观念、审美理想、精神气质。音乐风格本身是难以分类的，一首音乐可能融合了多种音乐风格。&lt;strong&gt;如果说音乐流派还可以算作分类，音乐风格应该算标签（tag）&lt;/strong&gt;，一首音乐可以有多个标签。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;TL;ND   建议粗粗浏览。以下音乐风格可做速查用，分类各家各家观点不同，仅作参考&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
+&lt;details&gt;
+  &lt;summary style=&#34;background-color:#f5f5f5;border:1px solid #ccc;padding:5px;&#34;&gt;
+    TL;ND   以下音乐风格可做速查用，分类各家各家观点不同，仅作参考
+    
+  &lt;/summary&gt;
+  &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;folk：&lt;/p&gt;
 &lt;ul&gt;
@@ -299,6 +332,9 @@
 &lt;p&gt;acappella：阿卡贝拉，纯人声多重合唱&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;/details&gt;
+
 &lt;hr&gt;
 &lt;p&gt;音乐基础知识具备，在开始实操阶段之前，先了解AI制作音乐的流程及概念&lt;/p&gt;
 &lt;h2 id=&#34;ai音乐中的概念&#34;&gt;AI音乐中的概念&lt;/h2&gt;
